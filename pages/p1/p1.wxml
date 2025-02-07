@@ -3,6 +3,6 @@
 <scroll-view class="scrollarea" scroll-y>
   <view class="container">
     {{text}}
-    <button type="primary" bind:tap="back">《</button>
+    <button type="primary" bind:tap="back">index</button>
   </view>
 </scroll-view>
