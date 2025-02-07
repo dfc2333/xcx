@@ -1,8 +1,0 @@
-<!--index.wxml-->
-<navigation-bar title='p1' back="{{false}}" color="black" background="#dfc"></navigation-bar>
-<scroll-view class="scrollarea" scroll-y>
-  <view class="container">
-    {{text}}
-    <button type="primary" bind:tap="back">《</button>
-  </view>
-</scroll-view>
