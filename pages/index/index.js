@@ -20,4 +20,35 @@ Page({
       url: '/pages/p1/p1',
     })
   },
+  switch_to_intro: function(){
+    wx.navigateTo({
+      url: '/pages/intro/intro',
+    })
+  },
+  switch_to_bp: function(){
+    wx.navigateTo({
+      url: '/pages/bp/bp',
+    })
+  },
+  switch_to_sos: function(){
+    wx.navigateTo({
+      url: '/pages/sos/sos',
+    })
+  },
+  switch_to_tools: function(){
+    wx.navigateTo({
+      url: '/pages/tools/tools',
+    })
+  },
+  switch_to_share: function(){
+    wx.navigateTo({
+      url: '/pages/share/share',
+    })
+  },
+  switch_to_blog: function(){
+    wx.navigateTo({
+      url: '/pages/blog/blog',
+    })
+  },
+  
 })

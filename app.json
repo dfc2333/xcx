@@ -1,7 +1,13 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/p1/p1"
+    "pages/p1/p1",
+    "pages/intro/intro",
+    "pages/blog/blog",
+    "pages/bp/bp",
+    "pages/share/share",
+    "pages/sos/sos",
+    "pages/tools/tools"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -22,5 +28,4 @@
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
-  
 }

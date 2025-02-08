@@ -1,24 +1,30 @@
 <!--index.wxml-->
 <navigation-bar title='走进高原' back="{{false}}" color="black" background="#dfc"></navigation-bar>
 <view class="scrollarea">
-  <view class="container" style="position: absolute;padding: 0px; gap: 0px;">
+  <view class="container" style="position: absolute;padding-top: 0px; gap: 0px;">
     <image id="img1" src="/images/index/High.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
     <view class='sub-ctnr'>
       <view class='min-ctnr'>
-        
+        <button type="default" style="position: relative; left: 0rpx; top: 106rpx" bind:tap="switch_to_intro">高原介绍</button>
       </view>
       <view class='min-ctnr'>
+        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_bp">必备物品</button>
       </view>
     </view>
     <view class='sub-ctnr'>
-      <view class='min-ctnr'></view>
-      <view class='min-ctnr'></view>
+      <view class='min-ctnr'>
+        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_sos">sos</button>
+      </view>
+      <view class='min-ctnr'>
+        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_tools">工具包</button>
+      </view>
     </view>
     <view class='sub-ctnr'>
       <view class='min-ctnr'>
-        
+        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_share">写分享</button>
       </view>
       <view class='min-ctnr'>
+        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_blog">看分享</button>
       </view>
     </view>
   </view>
