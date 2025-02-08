@@ -1,10 +1,25 @@
 <!--index.wxml-->
 <navigation-bar title='走进高原' back="{{false}}" color="black" background="#dfc"></navigation-bar>
-<scroll-view class="scrollarea" scroll-y='true'>
-  <view class="container">
-    <image id="img1" src="/pages/index/High.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
-    <text user-select='true' class="text-center">{{text}}</text>
-    <button type="primary" bind:tap="scanQR">scan</button>
-    <button type="primary" bind:tap="p1">p1</button>
+<view class="scrollarea">
+  <view class="container" style="position: absolute;padding: 0px; gap: 0px;">
+    <image id="img1" src="/images/index/High.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
+    <view class='sub-ctnr'>
+      <view class='min-ctnr'>
+        
+      </view>
+      <view class='min-ctnr'>
+      </view>
+    </view>
+    <view class='sub-ctnr'>
+      <view class='min-ctnr'></view>
+      <view class='min-ctnr'></view>
+    </view>
+    <view class='sub-ctnr'>
+      <view class='min-ctnr'>
+        
+      </view>
+      <view class='min-ctnr'>
+      </view>
+    </view>
   </view>
-</scroll-view>
+</view>

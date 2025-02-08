@@ -19,5 +19,5 @@ Page({
     wx.navigateTo({
       url: '/pages/p1/p1',
     })
-  }
+  },
 })

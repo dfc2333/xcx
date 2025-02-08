@@ -1,6 +1,7 @@
 /**index.wxss**/
 page {
-  height: 100vh;
+  height: 100%;
+  width: 750rpx;
   display: flex;
   flex-direction: column;
 }
@@ -8,11 +9,30 @@ page {
   flex: 1;
   overflow-y: hidden;
 }
-progress {margin: 10px;}
+.sub-ctnr{
+  display: flex;
+  flex: 1;
+  width: 100%
+}
+.min-ctnr{
+  flex: 1;
+
+}
 .text-center {
 text-align: center;
 }
 #img1{
+  flex:1;
   width:750rpx;
-  height:534rpx;
+  height:264rpx;
+}
+.bar{
+  flex: 0.8;
+  display: flex;
+  width: 100%;
+}
+.bn{
+  flex:1;
+  text-align: center;
+  vertical-align: middle;
 }
