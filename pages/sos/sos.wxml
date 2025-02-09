@@ -3,7 +3,6 @@
 <navigation-bar title='sos' back="{{true}}" color="black" background="#dfc"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y>
     <view class="container">
-      <view class='sub-ctnr'>
         <view class='min-ctnr' >
             <!--<navigator url="/pages/sos/map/map" style='background-color: #999999;'>地图</navigator>-->
             <button type="default" bind:tap="direct" style="position: relative; left: 0rpx; top: 35rpx">地图</button>
@@ -17,7 +16,6 @@
         <view class='min-ctnr'>
             <button type="default" bind:tap="guide" style="position: relative; left: 0rpx; top: -181rpx">应急指南</button>
         </view>
-      </view>
         <view class='min-ctnr'>
             <text class="main_content" style="position: relative; left: 0rpx; top: -156rpx; height: 264rpx; display: block; box-sizing: border-box; width: 611rpx">
                 Tips :<br />
