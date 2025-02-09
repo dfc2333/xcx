@@ -41,14 +41,10 @@ Page({
     })
   },
   switch_to_share: function(){
-    wx.navigateTo({
-      url: '/pages/share/share',
-    })
+    wx.navigateToMiniProgram({appId:'wx286efc12868f2559'})//华住会
   },
   switch_to_blog: function(){
-    wx.navigateTo({
-      url: '/pages/blog/blog',
-    })
+    wx.navigateToMiniProgram({appId:'wx0e6ed4f51db9d078'})//携程
   },
   
 })

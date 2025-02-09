@@ -3,16 +3,34 @@
 <navigation-bar title='sos' back="{{true}}" color="black" background="#dfc"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y>
     <view class="container">
-        <view class='min-ctnr' >
-            <!--<navigator url="/pages/sos/map/map" style='background-color: #999999;'>地图</navigator>-->
-            <button type="default" bind:tap="direct" style="position: relative; left: 0rpx; top: 35rpx">地图</button>
-        </view>
-        <view class='min-ctnr'>
-            <button type="default" bind:tap="police" style="position: relative; left: 0rpx; top: -35rpx">警察</button>
-        </view>
-        <view class='min-ctnr'>
-            <button type="default" bind:tap="help" style="position: relative; left: 0rpx; top: -111rpx">急救</button>
-        </view>
+      <view class='sub-ctnr'>
+        <view class='min-ctnr' bind:tap="direct">
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f8a5a83.png" mode="aspectFit"></image>
+        <text class="text-center-flex"  style="font-size: 70rpx;">
+          地图
+        </text>
+      </view>
+      <view class='min-ctnr' bind:tap="guide">
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f87924c.png" mode="aspectFit" ></image>
+        <text class="text-center-flex" style="font-size: 50rpx;">
+          应急指南
+        </text>
+      </view>
+    </view>
+    <view class='sub-ctnr'>
+        <view class='min-ctnr' bind:tap="police">
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit"></image>
+        <text class="text-center-flex"  style="font-size: 70rpx;">
+          警察
+        </text>
+      </view>
+      <view class='min-ctnr' bind:tap="help">
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit" ></image>
+        <text class="text-center-flex"  style="font-size: 70rpx;">
+          急救
+        </text>
+      </view>
+    </view>
         <view class='min-ctnr'>
             <button type="default" bind:tap="guide" style="position: relative; left: 0rpx; top: -181rpx">应急指南</button>
         </view>

@@ -2,7 +2,7 @@
 <navigation-bar title='走进高原' back="{{false}}" color="black" background="#dfc"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y='true'>
   <view class="container"style='border: 20rpx solid white;'>
-    <image id="img1" src="/images/index/High.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
+    <image id="img1" src="https://www.helloimg.com/i/2025/02/09/67a884f1c8ae4.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
     <view class='sub-ctnr'>
       <view class='min-ctnr' bind:tap="switch_to_intro">
         <image class="icon" src="/images/index/iconIntro.png" mode="aspectFit"></image>
@@ -35,13 +35,13 @@
       <view class='min-ctnr' bind:tap="switch_to_share">
         <image class="icon" src="/images/index/iconShare.png" mode="aspectFit"></image>
         <text class="text-center-flex" >
-          写分享
+          订酒店
         </text>
       </view>
       <view class='min-ctnr' bind:tap="switch_to_blog">
         <image class="icon" src="/images/index/iconBlog.png" mode="aspectFit"></image>
         <text class="text-center-flex" >
-          看分享
+          订机票
         </text>
       </view>
     </view>
