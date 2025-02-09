@@ -14,9 +14,13 @@
     "pages/intro/Yg/Yg",
     "pages/tools/tut/tut",
     "pages/tools/com/com",
-    "pages/tools/cont/cont"
+    "pages/tools/cont/cont",
+    "pages/sos/guide/guide"
   ],
   "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "demo",
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },

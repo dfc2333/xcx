@@ -4,20 +4,20 @@
     <view class="container">
         <view class='min-ctnr' >
             <!--<navigator url="/pages/sos/map/map" style='background-color: #999999;'>地图</navigator>-->
-            <button type="default" bind:tap="direct">地图</button>
+            <button type="default" bind:tap="direct" style="position: relative; left: 0rpx; top: 35rpx">地图</button>
         </view>
         <view class='min-ctnr'>
-            <button type="default" bind:tap="police">警察</button>
+            <button type="default" bind:tap="police" style="position: relative; left: 0rpx; top: -35rpx">警察</button>
         </view>
         <view class='min-ctnr'>
-            <button type="default" bind:tap="help">急救</button>
+            <button type="default" bind:tap="help" style="position: relative; left: 0rpx; top: -111rpx">急救</button>
         </view>
         <view class='min-ctnr'>
-            <button type="default" bind:tap="guide">应急指南</button>
+            <button type="default" bind:tap="guide" style="position: relative; left: 0rpx; top: -181rpx">应急指南</button>
         </view>
         <view class='min-ctnr'>
-            <text class="main_content">
-                指南:<br />
+            <text class="main_content" style="position: relative; left: 0rpx; top: -156rpx; height: 264rpx; display: block; box-sizing: border-box; width: 611rpx">
+                Tips :<br />
                 {{currentTips}}
             </text>
         </view>
