@@ -1,1 +1,8 @@
 /* pages/bp/bp.wxss */
+page {
+  height: 100%;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(skyblue,#9d9769);
+}
