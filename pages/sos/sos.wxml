@@ -19,6 +19,7 @@
                 Tips:<br />
                 {{currentTips}}
             </text>
+            <navigator url="/pages/tips/tips" style="color: blue;">更多></navigator>
         </view>
     </view>
 </scroll-view>
