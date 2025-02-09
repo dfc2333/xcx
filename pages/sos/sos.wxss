@@ -1,7 +1,33 @@
 /* pages/sos/sos.wxss */
 page {
-  height: 100%;
-  width: 750rpx;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+progress {
+  margin: 10px;
+}
+.text-center {
+  margin-left: -50rpx;
+  margin-right: -50rpx;
+}
+.scrollarea {
+    flex: 1;
+    overflow-y: hidden;
+}
+.sub-ctnr{
+    display: flex;
+    flex: 1;
+    width: 100%
+}
+.min-ctnr{
+    flex: 1;
+    margin: 0 auto
+}
+.text-center {
+  text-align: center;
 }

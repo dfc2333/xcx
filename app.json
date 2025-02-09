@@ -7,7 +7,9 @@
     "pages/bp/bp",
     "pages/share/share",
     "pages/sos/sos",
-    "pages/tools/tools"
+    "pages/tools/tools",
+    "pages/sos/map/map",
+    "pages/intro/Qz/Qz"
   ],
   "window": {
     "navigationBarTextStyle": "black",

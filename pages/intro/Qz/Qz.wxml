@@ -1,0 +1,2 @@
+<!--pages/intro/Qz/Qz.wxml-->
+<navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc"></navigation-bar>

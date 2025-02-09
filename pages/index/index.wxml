@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <navigation-bar title='走进高原' back="{{false}}" color="black" background="#dfc"></navigation-bar>
-<view class="scrollarea">
+<scroll-view class="scrollarea" scroll-y='true'>
   <view class="container" style="position: absolute;padding-top: 0px; gap: 0px;">
     <image id="img1" src="/images/index/High.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
     <view class='sub-ctnr'>
@@ -46,4 +46,4 @@
       </view>
     </view>
   </view>
-</view>
+</scroll-view>
