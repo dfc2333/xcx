@@ -34,17 +34,25 @@ Page({
     this.setData({
       currentTips: this.data.tipsList[Math.floor(Math.random()*24)],
     });
-    /*let currentIndex = 0;
     setInterval(() => {
-      currentIndex = (currentIndex + 1) % this.data.tipsList.length;
-      this.setData({
-        currentTips: this.data.tipsList[currentIndex],
-      });
-    }, 10000);*/
+        this.setData({
+          currentTips: this.data.tipsList[Math.floor(Math.random()*24)],
+        });
+      }, 10000);
   },
-  /*direct: function(){
+  direct: function(){
     wx.navigateTo({
-      url: 'pages/sos/map/map',
+      url: "/pages/sos/map/map",
     })
-  }*/
+  },
+  police: function(){
+    wx.makePhoneCall({
+      phoneNumber: '110',
+    })
+  },
+  help: function(){
+    wx.makePhoneCall({
+      phoneNumber: '120',
+    })
+  },
 });

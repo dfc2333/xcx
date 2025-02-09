@@ -2,7 +2,6 @@
 <navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc"></navigation-bar>
 <scroll-view class='scrollarea' scroll-y="">
   <view class="container">
-    <text class="main_content" user-select='true'>青藏高原、黄土高原和云贵高原共同构成了中国三大高原的地理格局。它们不仅是中国的地理屏障，更是重要的生态屏障和自然资源库。随着全球气候变化的影响加剧，这三个高原的自然生态系统面临着严峻挑战：冰川消融、物种多样性减少等问题正在威胁着区域稳定。
-然而，高原的独特价值也为人类社会提供了宝贵的资源和智慧：从传统农业技术到现代生态保护理念，高原地区都做出了重要贡献。未来，我们需要更加重视对高原生态系统的保护工作，并在开发过程中充分考虑其环境承载能力，以实现可持续发展。</text>
+    <text class="main_content" user-select='true' style="font-size: 30rpx;">青藏高原、黄土高原和云贵高原共同构成了中国三大高原的地理格局。它们不仅是中国的地理屏障，更是重要的生态屏障和自然资源库。</text>
   </view>
 </scroll-view>

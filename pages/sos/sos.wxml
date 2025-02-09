@@ -3,7 +3,8 @@
 <scroll-view class="scrollarea" scroll-y>
     <view class="container">
         <view class='min-ctnr' >
-            <navigator url="/pages/sos/map/map" style='background-color: #999999;'>地图</navigator>
+            <!--<navigator url="/pages/sos/map/map" style='background-color: #999999;'>地图</navigator>-->
+            <button type="default" bind:tap="direct">地图</button>
         </view>
         <view class='min-ctnr'>
             <button type="default" bind:tap="police">警察</button>
@@ -16,10 +17,9 @@
         </view>
         <view class='min-ctnr'>
             <text class="main_content">
-                Tips:<br />
+                指南:<br />
                 {{currentTips}}
             </text>
-            <navigator url="/pages/tips/tips" style="color: blue;">更多></navigator>
         </view>
     </view>
 </scroll-view>
