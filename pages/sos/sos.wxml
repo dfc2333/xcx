@@ -5,13 +5,13 @@
     <view class="container">
       <view class='sub-ctnr'>
         <view class='min-ctnr' bind:tap="direct">
-        <image class="icon" src="https://2409:8a55:aa3:4f14:2cab:a474:5010:8ea2:2333/images/tools/map.png" mode="aspectFit"></image>
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f8a5a83.png" mode="aspectFit"></image>
         <text class="text-center-flex"  style="font-size: 70rpx;">
           地图
         </text>
       </view>
       <view class='min-ctnr' bind:tap="guide">
-        <image class="icon" src="/images/tools/Tutorial.png" mode="aspectFit" ></image>
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f87924c.png" mode="aspectFit" ></image>
         <text class="text-center-flex" style="font-size: 50rpx;">
           应急指南
         </text>
@@ -19,13 +19,13 @@
     </view>
     <view class='sub-ctnr'>
         <view class='min-ctnr' bind:tap="police">
-        <image class="icon" src="/images/tools/contact.png" mode="aspectFit"></image>
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit"></image>
         <text class="text-center-flex"  style="font-size: 70rpx;">
           警察
         </text>
       </view>
       <view class='min-ctnr' bind:tap="help">
-        <image class="icon" src="/images/tools/contact.png" mode="aspectFit" ></image>
+        <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit" ></image>
         <text class="text-center-flex"  style="font-size: 70rpx;">
           急救
         </text>
