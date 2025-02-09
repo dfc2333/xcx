@@ -9,7 +9,6 @@ Page({
 
 		app.getText('https://raw.githubusercontent.com/sti-233/xcx/refs/heads/dfc/pages/sos/guide/guide.md',res => {
 			let obj = app.towxml(res.data,'markdown',{
-				// theme:'dark',
 				events:{
 					tap:e => {
 						console.log('tap',e);
@@ -21,8 +20,7 @@ Page({
 			});
 
 			_ts.setData({
-				article:obj,
-				isLoading: false
+				article:obj
 			});
 		});
 		
