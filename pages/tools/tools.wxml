@@ -1,3 +1,26 @@
 <!--pages/tools/tools.wxml-->
-<navigation-bar title='intro' back="{{true}}" color="black" background="#dfc"></navigation-bar>
-<view>nihao</view>
+<navigation-bar title='工具包' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<view class="container" style='border: 20rpx solid white;'>
+  <view class="sub-ctnr">
+    <text class="text-center-flex" style="font-size: 100rpx;color: skyblue;line-height: 400rpx;background-color: white;">这里有一些工具</text>
+  </view>
+  <view class="sub-ctnr">
+    <view class="min-ctnr" bind:tap="switch_to_map">
+      <image src="/images/tools/map.png" mode="aspectFit" class='icon'/> <text class="text-center-flex" style="font-size: 60rpx;">地图</text>
+    </view>
+    <view class="min-ctnr" bind:tap="switch_to_tut">
+      <image src="/images/tools/Tutorial.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 60rpx;">教程</text>
+    </view>
+  </view>
+  <view class="sub-ctnr">
+    <view class="min-ctnr" bind:tap="switch_to_com">
+      <image src="/images/tools/Compass.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 60rpx;">指南</text>
+    </view>
+    <view class="min-ctnr" bind:tap="switch_to_cont">
+      <image src="/images/tools/contact.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 60rpx;">联系</text>
+    </view>
+  </view>
+  <view class="sub-ctnr" style="background-color: white;">
+    <text class="text-center-flex" style="font-size: 50rpx;">敬请期待</text>
+  </view>
+</view>

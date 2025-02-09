@@ -20,9 +20,10 @@
 .min-ctnr{
   flex: 1;
   display: flex;
-  margin: 0 auto;
   align-items:center;
   justify-content:center;
+  border: 10rpx solid #ffffff;
+  padding: 30rpx;
 }
 .text-center {
 text-align: center;
@@ -35,6 +36,7 @@ text-align: center;
   text-align: center;
   flex: 1;
   line-height: 100%;
+  font-size: 35rpx;
 }
 .icon{
   width: 80rpx;

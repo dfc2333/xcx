@@ -9,7 +9,12 @@
     "pages/sos/sos",
     "pages/tools/tools",
     "pages/sos/map/map",
-    "pages/intro/Qz/Qz"
+    "pages/intro/Qz/Qz",
+    "pages/intro/Ht/Ht",
+    "pages/intro/Yg/Yg",
+    "pages/tools/tut/tut",
+    "pages/tools/com/com",
+    "pages/tools/cont/cont"
   ],
   "window": {
     "navigationBarTextStyle": "black",

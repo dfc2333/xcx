@@ -21,7 +21,7 @@ page {
   align-items:center;
   justify-content:center;
   border: 10rpx solid #ffffff;
-  padding: 70rpx;
+  padding: 50rpx;
 }
 .text-center {
 text-align: center;

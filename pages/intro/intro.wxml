@@ -1,7 +1,27 @@
 <!--pages/intro.wxml-->
 <navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc"></navigation-bar>
-<scroll-view class='scrollarea' scroll-y="">
+<scroll-view class='scrollarea' scroll-y="true">
   <view class="container">
-    <text class="main_content" user-select='true' style="font-size: 30rpx;">青藏高原、黄土高原和云贵高原共同构成了中国三大高原的地理格局。它们不仅是中国的地理屏障，更是重要的生态屏障和自然资源库。</text>
+    <view style="display: flex;width:100%;background-color: white;align-items:center;justify-content:center;">
+      <text user-select='true' style="font-size: 40rpx;text-align: center; font-family: 楷体;">青藏高原、黄土高原和云贵高原
+        共同构成了中国三大高原的地理格局。
+        它们不仅是中国的地理屏障，更是重要的
+        生态屏障和自然资源库。
+        往下滚动查看更多</text>
+    </view>
+    <view style="flex-direction: column;">
+      <view class="min-ctnr" bind:tap="Qz">
+        <image src="/images/intro/QzReal.png" mode="aspectFit" style="flex: 1;" />
+        <text style="font-size: 70rpx;flex:1">青藏高原</text>
+      </view>
+      <view class="min-ctnr" bind:tap="Ht">
+        <image src="/images/intro/Ht.jpg" mode="aspectFit" style="flex: 1;" />
+        <text style="font-size: 70rpx;flex:1">黄土高原</text>
+      </view>
+      <view class="min-ctnr" bind:tap="Yg">
+        <image src="/images/intro/Yg.jpg" mode="aspectFit" style="flex: 1;" />
+        <text style="font-size: 70rpx;flex:1">青藏高原</text>
+      </view>
+    </view>
   </view>
 </scroll-view>
