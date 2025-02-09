@@ -1,3 +1,4 @@
+
 <!--pages/bp/bp.wxml-->
 <navigation-bar title='intro' back="{{true}}" color="black" background="#dfc"></navigation-bar>
 <view>nihao</view>

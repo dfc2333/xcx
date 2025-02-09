@@ -1,3 +1,7 @@
 <!--pages/intro.wxml-->
 <navigation-bar title='intro' back="{{true}}" color="black" background="#dfc"></navigation-bar>
-<view>nihao</view>
+<view class='scrollarea'>
+  <view class="container">
+    <text class="main_content"></text>
+  </view>
+</view>

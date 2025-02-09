@@ -4,27 +4,45 @@
   <view class="container" style="position: absolute;padding-top: 0px; gap: 0px;">
     <image id="img1" src="/images/index/High.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
     <view class='sub-ctnr'>
-      <view class='min-ctnr'>
-        <button type="default" style="position: relative; left: 0rpx; top: 106rpx" bind:tap="switch_to_intro">高原介绍</button>
+      <view class='min-ctnr' bind:tap="switch_to_intro">
+        <image class="icon" src="/images/index/iconIntro.png" mode="aspectFit"></image>
+        <text class="text-center-flex" >
+          高原介绍
+        </text>
       </view>
-      <view class='min-ctnr'>
-        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_bp">必备物品</button>
-      </view>
-    </view>
-    <view class='sub-ctnr'>
-      <view class='min-ctnr'>
-        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_sos">sos</button>
-      </view>
-      <view class='min-ctnr'>
-        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_tools">工具包</button>
+      <view class='min-ctnr' bind:tap="switch_to_bp">
+        <image class="icon" src="/images/index/iconBp.png" mode="aspectFit" ></image>
+        <text class="text-center-flex" >
+          必备物品
+        </text>
       </view>
     </view>
     <view class='sub-ctnr'>
-      <view class='min-ctnr'>
-        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_share">写分享</button>
+      <view class='min-ctnr' bind:tap="switch_to_sos">
+        <image class='icon' src="/images/index/iconSos.png" mode="aspectFit"></image>
+        <text class="text-center-flex" >
+          SOS求救
+        </text>
       </view>
-      <view class='min-ctnr'>
-        <button type="default" style="position: relative; left: 0rpx; top: 106rpx"bind:tap="switch_to_blog">看分享</button>
+      <view class='min-ctnr' bind:tap="switch_to_tools">
+        <image class="icon" src="/images/index/iconTools.png" mode="aspectFit"></image>
+        <text class="text-center-flex" >
+          工具包
+        </text>
+      </view>
+    </view>
+    <view class='sub-ctnr'>
+      <view class='min-ctnr' bind:tap="switch_to_share">
+        <image class="icon" src="/images/index/iconShare.png" mode="aspectFit"></image>
+        <text class="text-center-flex" >
+          写分享
+        </text>
+      </view>
+      <view class='min-ctnr' bind:tap="switch_to_blog">
+        <image class="icon" src="/images/index/iconBlog.png" mode="aspectFit"></image>
+        <text class="text-center-flex" >
+          看分享
+        </text>
       </view>
     </view>
   </view>
