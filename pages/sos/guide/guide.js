@@ -7,7 +7,7 @@ Page({
 	onLoad: function () {
 		const _ts = this;
 
-		app.getText('/pages/sos/guide/guide.txt',res => {
+		app.getText('https://raw.githubusercontent.com/sti-233/xcx/refs/heads/dfc/pages/sos/guide/guide.md',res => {
 			let obj = app.towxml(res.data,'markdown',{
 				// theme:'dark',
 				events:{
