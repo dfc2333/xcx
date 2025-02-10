@@ -1,6 +1,5 @@
 <!--pages/sos/sos.wxml-->
-
-<navigation-bar title='sos' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<navigation-bar title='SOS求救' back="{{true}}" color="black" background="#dfc"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y>
     <view class="container">
         <view class='sub-ctnr'>

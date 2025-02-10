@@ -2,11 +2,11 @@
 Page({
   data: {
     pst: '0',
-    text: 'nth'
+    text: '敬请期待'
   },
   back: function(){
     wx.navigateBack({
-      delta:2,
+      delta:1,
     })
   }
 
