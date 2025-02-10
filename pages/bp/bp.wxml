@@ -3,6 +3,9 @@
 <scroll-view class='scrollarea' scroll-y="true">
   <view class="container">
     <view style="flex-direction: column;">
+      <view class="min-ctnr" style="height: 1%;background-color: rgb(90, 186, 224);" bind:tap="calc">
+        <text style="flex:1;text-align: center;font-size: larger;">算预算></text>
+      </view>
       <view class="min-ctnr">
         <text style="flex:1">1. 防高反药物
 红景天胶囊：适用于缓解高度反应，价格适中，可以在药店或在线商店购买。  
@@ -11,7 +14,7 @@
       <view class="min-ctnr">
         <text style="flex:1">2. 穿着衣物
 保暖材料：羊毛和羊绒服装适合冬季高原穿着。  
-鞋子选择：防滑且轻便的布鞋或运动鞋更为合适，避免登山鞋因价格昂贵而考虑替代品。</text>
+鞋子选择：防滑且轻便的运动鞋更为合适，因登山鞋价格昂贵而考虑的替代品。</text>
       </view>
       <view class="min-ctnr">
         <text style="flex:1">3. 水和锅具

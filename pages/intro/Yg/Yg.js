@@ -2,6 +2,7 @@ const app = getApp();
 Page({
   data: {
     article: {},
+    loading:true
   },
   onLoad: function () {
     const _ts = this;
@@ -20,6 +21,7 @@ Page({
         });
         _ts.setData({
           article: obj,
+          loading:false
         });
       }
     );

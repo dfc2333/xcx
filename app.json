@@ -13,7 +13,8 @@
     "pages/tools/tut/tut",
     "pages/tools/com/com",
     "pages/tools/cont/cont",
-    "pages/sos/guide/guide"
+    "pages/sos/guide/guide",
+    "pages/bp/calc/calc"
   ],
   "window": {
     "backgroundTextStyle": "light",
