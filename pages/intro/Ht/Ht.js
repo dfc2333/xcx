@@ -1,66 +1,27 @@
-// pages/intro/Qz/Qz.js
+const app = getApp();
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    article: {},
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
+  onLoad: function () {
+    const _ts = this;
+    app.getText(
+      "https://raw.githubusercontent.com/sti-233/xcx/refs/heads/dfc/pages/intro/Ht/Ht.md",
+      (res) => {
+        let obj = app.towxml(res.data, "markdown", {
+          events: {
+            tap: (e) => {
+              console.log("tap", e);
+            },
+            change: (e) => {
+              console.log("todo", e);
+            },
+          },
+        });
+        _ts.setData({
+          article: obj,
+        });
+      }
+    );
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
-})
+});

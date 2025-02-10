@@ -1,0 +1,4 @@
+<!--pages/sos/guide/guide.wxml-->
+<navigation-bar title='应急指南' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<!--使用towxml-->
+<towxml nodes="{{article}}"/>

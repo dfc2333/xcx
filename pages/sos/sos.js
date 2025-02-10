@@ -55,4 +55,9 @@ Page({
       phoneNumber: '120',
     })
   },
+  guide: function(){
+    wx.navigateTo({
+      url: "/pages/sos/guide/guide",
+    })
+  },
 });

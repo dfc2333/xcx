@@ -1,5 +1,5 @@
 <!--pages/bp/bp.wxml-->
-<navigation-bar title='intro' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<navigation-bar title='必备物品' back="{{true}}" color="black" background="#dfc"></navigation-bar>
 <scroll-view class='scrollarea' scroll-y="true">
   <view class="container">
     <view style="flex-direction: column;">

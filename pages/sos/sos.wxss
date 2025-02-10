@@ -3,7 +3,7 @@ page {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(skyblue,#9d9769);
+  background: linear-gradient(skyblue, #9d9769);
 }
 .scrollarea {
   flex: 1;
@@ -17,17 +17,22 @@ progress {
   margin-right: -50rpx;
 }
 .scrollarea {
-    flex: 1;
-    overflow-y: hidden;
+  flex: 1;
+  overflow-y: hidden;
 }
-.sub-ctnr{
-    display: flex;
-    flex: 1;
-    width: 100%
+.sub-ctnr {
+  display: flex;
+  flex: 1;
+  width: 100%;
 }
-.min-ctnr{
-    flex: 1;
-    margin: 0 auto
+.min-ctnr {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0rpx solid #ffffff;
+  padding: 30rpx;
+  margin: 0 auto;
 }
 .text-center {
   text-align: center;
