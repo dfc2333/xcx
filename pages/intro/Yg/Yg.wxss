@@ -1,7 +1,1 @@
 /* pages/intro/Qz/Qz.wxss */
-page {
-  height: 100%;
-  width: 750rpx;
-  display: flex;
-  flex-direction: column;
-}
