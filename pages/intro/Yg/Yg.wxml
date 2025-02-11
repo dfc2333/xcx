@@ -1,3 +1,12 @@
 <!--pages/intro/Qz/Qz.wxml-->
-<navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc" style="position: fixed; height: 100rpx; width: 750rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"></navigation-bar>
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="云贵高原"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
 <towxml nodes="{{article}}"/>

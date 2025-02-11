@@ -5,9 +5,7 @@ Page({
   },
   onLoad: function () {
     const _ts = this;
-    const markdownText = `
-https://github.com/dfc2333/xcx/tree/dfc
-# 青藏高原
+    const markdownText = `# 青藏高原
 
 青藏高原是中国最大的高原，也是世界上海拔最高的高原。
 

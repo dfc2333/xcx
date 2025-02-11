@@ -1,5 +1,14 @@
 <!--pages/sos/sos.wxml-->
-<navigation-bar title='SOS求救' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="求救"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
 <scroll-view class="scrollarea" scroll-y>
     <view class="container">
         <view class='sub-ctnr'>

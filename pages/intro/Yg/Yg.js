@@ -5,9 +5,7 @@ Page({
   },
   onLoad: function () {
     const _ts = this;
-    const markdownText = `
-https://github.com/dfc2333/xcx/tree/dfc
-# 云贵高原：西南地区的生态明珠
+    const markdownText = `# 云贵高原：西南地区的生态明珠
 
 云贵高原是中国西南地区的重要组成部分，也是世界上重要的高原之一。
 这里的平均海拔约为1500米到2800米不等，形成了独特的地形地貌和气候特征。

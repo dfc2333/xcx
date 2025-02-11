@@ -1,5 +1,14 @@
 <!--pages/tools/tools.wxml-->
-<navigation-bar title='工具包' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="工具"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
 <view class="container" style='border: 20rpx solid white;'>
   <view class="sub-ctnr">
     <text class="text-center-flex" style="font-size: 100rpx;color: skyblue;line-height: 400rpx;background-color: white;">这里有一些工具</text>

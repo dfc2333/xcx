@@ -1,4 +1,13 @@
 <!--pages/sos/guide/guide.wxml-->
-<navigation-bar title='应急指南' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="应急指南"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
 <!--使用towxml-->
 <towxml nodes="{{article}}"/>

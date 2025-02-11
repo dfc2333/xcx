@@ -1,5 +1,14 @@
 <!--pages/sos/map/map.wxml-->
-<navigation-bar title='地图' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="地图"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
 <view style="display: flex; height: 100%;">
 <map longitude="" latitude="" style="flex: 1; height: 90%;"/>
 </view>

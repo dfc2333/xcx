@@ -6,8 +6,7 @@ Page({
   },
   onLoad: function () {
     const _ts = this;
-const markdownText = `
-# 安全第一
+const markdownText = `# 安全第一
 
 在高原环境下，由于气压低、氧气稀薄、气候多变，可能会遇到各种紧急情况。以下是一些常见情况及应对措施：
 

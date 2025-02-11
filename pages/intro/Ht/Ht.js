@@ -5,9 +5,7 @@ Page({
   },
   onLoad: function () {
     const _ts = this;
-    const markdownText = `
-https://github.com/dfc2333/xcx/tree/dfc
-# 黄土高原：中华大地上的“黄土地”
+    const markdownText = `# 黄土高原：中华大地上的“黄土地”
 
 黄土高原是中国第二大的高原，也是中国人口密度最高的高原地区之一。
 
