@@ -17,6 +17,11 @@
         "pages/tools/water/water",
         "pages/tools/cliff/cliff"
     ],
+    "permission": {
+      "scope.userLocation": {
+        "desc": "你的位置信息将用于地图上的显示" 
+      }
+    },
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#000",
