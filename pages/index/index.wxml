@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<<<<<<< HEAD
 <view class="block">
   <t-navbar
     t-class-placeholder="t-navbar-placeholder"
@@ -8,6 +9,14 @@
     style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
   />
 </view>
+=======
+<t-navbar
+  t-class-placeholder="t-navbar-placeholder"
+  t-class-content="t-navbar-content"
+  class="custom-navbar"
+  title="走进高原"
+/>
+>>>>>>> dfc
 <scroll-view class="scrollarea" scroll-y='true'>
   <view class="container"style='border: 20rpx solid white;'>
     <image id="img1" src="https://www.helloimg.com/i/2025/02/09/67a884f1c8ae4.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
