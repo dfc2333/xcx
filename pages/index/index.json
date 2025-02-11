@@ -1,5 +1,11 @@
 {
   "usingComponents": {
-    "navigation-bar": "/components/navigation-bar/navigation-bar"
+    "navigation-bar": "/components/navigation-bar/navigation-bar",
+    "base": "/components/navbar/base",
+    "search": "/components/navbar/search",
+    "back-home": "/components/navbar/back-home",
+    "img": "/components/navbar/img",
+    "left-title": "/components/navbar/left-title",
+    "custom-color": "/components/navbar/custom-color"
   }
 }

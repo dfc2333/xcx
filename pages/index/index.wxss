@@ -6,6 +6,9 @@ page {
   flex-direction: column;
   background: linear-gradient(skyblue,#9d9769);
 }
+.block {
+    display: block;
+}
 .scrollarea {
   flex: 1;
   overflow-y: hidden;
