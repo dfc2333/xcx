@@ -1,29 +1,62 @@
 const app = getApp();
 Page({
   data: {
-    article: {},
-    loading:true
+    article: {}
   },
   onLoad: function () {
     const _ts = this;
-    app.getText(
-      "https://raw.githubusercontent.com/sti-233/xcx/refs/heads/dfc/pages/intro/Qz/Qz.md",
-      (res) => {
-        let obj = app.towxml(res.data, "markdown", {
-          events: {
-            tap: (e) => {
-              console.log("tap", e);
-            },
-            change: (e) => {
-              console.log("todo", e);
-            },
-          },
-        });
-        _ts.setData({
-          article: obj,
-          loading:false
-        });
-      }
-    );
+    const markdownText = `
+https://github.com/dfc2333/xcx/tree/dfc
+# 青藏高原
+
+青藏高原是中国最大的高原，也是世界上海拔最高的高原。
+
+它的面积广阔，平均海拔在4000米以上，堪称“世界屋脊”。
+
+这里的地形复杂多样，山脉错综复杂, 河流纵横交错，形成了独特的地理格局。
+
+青藏高原的地质构造有着悠久的历史背景。
+
+- 据推测，这里曾是古生代中新生代交界时期形成的大陆内部构造带。
+- 随着时间的推移，地壳运动造就了高原目前的地形地貌。
+
+冰川覆盖面积广达80%以上，在全球变暖的大背景下，这些冰川正以惊人的速度消融。
+
+高原独特的地理环境对生物多样性产生了深远影响。
+
+- 这里的气候条件复杂多变，适合生长出许多稀有植物和珍稀动物。
+  - 红树、藏红花等特有物种在这里生存繁衍。
+  - 每年夏季，成千上万的迁徙鸟种在此越冬或筑巢。
+
+高原不仅是中国的地理屏障，更是重要的生态屏障。
+
+近年来，随着全球气候变化的影响加剧，青藏高原生态系统面临严峻挑战。
+
+- 冰川融化不仅带来了水文变化，还对周边地区产生了深远影响：
+  - 地表径流量增加可能导致洪涝灾害
+  - 干旱期可能引发严重缺水。
+
+尽管如此，青藏高原的自然美景也为当地居民提供了丰富的资源和生活条件。
+
+- 这里的牧羊人依靠放牧牦牛、绵羊维持生计；
+- 当地居民种植青稞等传统作物，并在不同季节进行海拔农业。
+
+高原独特的气候也孕育了丰富多彩的文化遗产：
+
+- 藏族文化以其独特的宗教信仰、音乐舞蹈和手工艺闻名于世。
+`;
+    let obj = app.towxml(markdownText, "markdown", {
+      events: {
+        tap: (e) => {
+          console.log("tap", e);
+        },
+        change: (e) => {
+          console.log("todo", e);
+        },
+      },
+    });
+    _ts.setData({
+      article: obj,
+    });
   },
 });

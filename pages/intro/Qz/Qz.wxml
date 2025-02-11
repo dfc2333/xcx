@@ -1,3 +1,4 @@
 <!--pages/intro/Qz/Qz.wxml-->
-<navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc" loading="{{loading}}"></navigation-bar>
+<navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc" style="position: fixed; height: 100rpx; width: 750rpx; display: block; box-sizing: border-box; left: 0rpx; top: 0rpx"></navigation-bar>
+<view style="height:100rpx;width:750rpx;display: block;"></view>
 <towxml nodes="{{article}}"/>
