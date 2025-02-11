@@ -1,3 +1,12 @@
 <!--pages/intro/Qz/Qz.wxml-->
-<navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc" loading="{{loading}}"></navigation-bar>
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="青藏高原"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
 <towxml nodes="{{article}}"/>
