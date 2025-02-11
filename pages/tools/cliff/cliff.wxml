@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<navigation-bar title='p1' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y>
+  <view class="container">
+    <view class="input_ctnr">
+      <input type="text" id="temp" class="ui" placeholder="输入你的手长" bindinput="calc"/>
+      <input type="text" id="temp" class="ui" placeholder="输入你距离悬崖的距离" bindinput="calc"/>
+      <input type="text" id="temp" class="ui" placeholder="输入你尺子的示数" bindinput="calc"/>
+      <text class="text-center" style="border-top: 5px solid grey;border-bottom: 5px solid gray;">{{res}}</text>
+    </view>
+  </view>
+</scroll-view>

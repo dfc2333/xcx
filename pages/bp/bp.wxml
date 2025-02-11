@@ -3,9 +3,6 @@
 <scroll-view class='scrollarea' scroll-y="true">
   <view class="container">
     <view style="flex-direction: column;">
-      <view class="min-ctnr" style="height: 1%;background-color: rgb(90, 186, 224);" bind:tap="calc">
-        <text style="flex:1;text-align: center;font-size: larger;">算预算></text>
-      </view>
       <view class="min-ctnr">
         <text style="flex:1">1. 防高反药物
 红景天胶囊：适用于缓解高度反应，价格适中，可以在药店或在线商店购买。  

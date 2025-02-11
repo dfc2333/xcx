@@ -1,28 +1,29 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/p1/p1",
-    "pages/intro/intro",
-    "pages/bp/bp",
-    "pages/sos/sos",
-    "pages/tools/tools",
-    "pages/sos/map/map",
-    "pages/intro/Qz/Qz",
-    "pages/intro/Ht/Ht",
-    "pages/intro/Yg/Yg",
-    "pages/tools/tut/tut",
-    "pages/tools/com/com",
-    "pages/tools/cont/cont",
-    "pages/sos/guide/guide",
-    "pages/bp/calc/calc"
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "demo",
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/index",
+        "pages/p1/p1",
+        "pages/intro/intro",
+        "pages/bp/bp",
+        "pages/sos/sos",
+        "pages/tools/tools",
+        "pages/sos/map/map",
+        "pages/intro/Qz/Qz",
+        "pages/intro/Ht/Ht",
+        "pages/intro/Yg/Yg",
+        "pages/tools/tut/tut",
+        "pages/tools/com/com",
+        "pages/tools/cont/cont",
+        "pages/sos/guide/guide",
+        "pages/tools/water/water",
+        "pages/tools/cliff/cliff"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "demo",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }

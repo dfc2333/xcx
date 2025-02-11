@@ -20,4 +20,14 @@ Page({
       url: "/pages/tools/cont/cont",
     })
   },
+  water: function(){
+    wx.navigateTo({
+      url: "/pages/tools/water/water",
+    })
+  },
+  cliff: function(){
+    wx.navigateTo({
+      url: "/pages/tools/cliff/cliff",
+    })
+  },
 })

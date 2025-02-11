@@ -20,6 +20,18 @@
       <image src="/images/tools/contact.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 60rpx;">联系</text>
     </view>
   </view>
+  <view class="sub-ctnr">
+    <view class="min-ctnr" bind:tap="water">
+      <image src="/images/tools/Compass.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 30rpx;">用烧开水
+      测你所在的
+      海拔高度</text>
+    </view>
+    <view class="min-ctnr" bind:tap="cliff">
+      <image src="/images/tools/Compass.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 30rpx;">用一把尺子
+      测量
+      悬崖的高度</text>
+    </view>
+  </view>
   <view class="sub-ctnr" style="background-color: white;">
     <text class="text-center-flex" style="font-size: 50rpx;">敬请期待</text>
   </view>
