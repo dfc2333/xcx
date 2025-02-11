@@ -1,14 +1,51 @@
 /**index.wxss**/
 page {
-  height: 100vh;
+  height: 100%;
+  width: 750rpx;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(skyblue, #9d9769);
+}
+.custom-navbar {
+  --td-navbar-color: #000;
+  --td-navbar-bg-color: #dfc;
+}
+.block {
+  display: block;
 }
 .scrollarea {
   flex: 1;
   overflow-y: hidden;
 }
-progress {margin: 10px;}
+.sub-ctnr {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+.min-ctnr {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10rpx solid #ffffff;
+  padding: 50rpx;
+}
 .text-center {
-text-align: center;
+  text-align: center;
+}
+#img1 {
+  flex: 1;
+  width: 750rpx;
+  height: 264rpx;
+  background-color: white;
+}
+.text-center-flex {
+  display: inline;
+  text-align: center;
+  flex: 1;
+  line-height: 100%;
+}
+.icon {
+  width: 80rpx;
+  height: 40%;
 }

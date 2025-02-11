@@ -1,25 +1,33 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/p1/p1"
-  ],
-  "window": {
-    "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
-  },
-  "style": "v2",
-  "renderer": "skyline",
-  "rendererOptions": {
-    "skyline": {
-      "defaultDisplayBlock": true,
-      "defaultContentBox": true,
-      "tagNameStyleIsolation": "legacy",
-      "disableABTest": true,
-      "sdkVersionBegin": "3.0.0",
-      "sdkVersionEnd": "15.255.255"
-    }
-  },
-  "componentFramework": "glass-easel",
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+    "pages": [
+        "pages/index/index",
+        "pages/p1/p1",
+        "pages/intro/intro",
+        "pages/bp/bp",
+        "pages/sos/sos",
+        "pages/tools/tools",
+        "pages/sos/map/map",
+        "pages/intro/Qz/Qz",
+        "pages/intro/Ht/Ht",
+        "pages/intro/Yg/Yg",
+        "pages/tools/tut/tut",
+        "pages/tools/com/com",
+        "pages/tools/cont/cont",
+        "pages/sos/guide/guide",
+        "pages/tools/water/water",
+        "pages/tools/cliff/cliff"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "demo",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "usingComponents": {
+        "t-navbar": "tdesign-miniprogram/navbar/navbar",
+        "t-icon": "tdesign-miniprogram/icon/icon"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }

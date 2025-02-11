@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<navigation-bar title='联系' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y>
+  <view class="container">
+    <text style="position: relative; left: 1rpx; top: 325rpx">{{text}}</text>
+    <button type="primary" bind:tap="back" style="position: relative; left: 0rpx; top: -304rpx">返回</button>
+  </view>
+</scroll-view>

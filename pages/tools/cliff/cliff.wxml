@@ -1,0 +1,12 @@
+<!--cliff.wxml-->
+<navigation-bar title='测悬崖高度' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y>
+  <view class="container" style='gap:30rpx'>
+      <input type="text" class="ui" placeholder="输入你的手长(m)" bindinput="hnd" value="{{hand}}"/>
+      <input type="text" class="ui" placeholder="输入你距离悬崖的距离(m)" bindinput="ds" value="{{dis}}"/>
+      <input type="text" class="ui" placeholder="输入你尺子的示数(cm)" bindinput="rl" value="{{rul}}"/>
+      <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="calc">计算</button>
+      <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="del">qingk</button>
+      <text class="text-center">{{res}}</text>
+  </view>
+</scroll-view>

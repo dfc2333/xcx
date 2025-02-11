@@ -1,0 +1,9 @@
+<!--water.wxml-->
+<navigation-bar title='烧开水测高度' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y>
+  <view class="container">
+  <view style="height: 100rpx;"></view>
+      <input type="text" id="temp" class="ui" placeholder="输入你测得的水沸点" bindinput="calc"/>
+      <text class="text-center" style="width:700rpx; border: 1px solid grey;border-radius: 10rpx;">{{res}}</text>
+  </view>
+</scroll-view>

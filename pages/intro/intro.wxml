@@ -1,0 +1,27 @@
+<!--pages/intro.wxml-->
+<navigation-bar title='高原介绍' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<scroll-view class='scrollarea' scroll-y="true">
+  <view class="container">
+    <view style="display: flex;width:100%;background-color: white;align-items:center;justify-content:center;">
+      <text user-select='true' style="font-size: 40rpx;text-align: center; font-family: 楷体;">青藏高原、黄土高原和云贵高原
+        共同构成了中国三大高原的地理格局。
+        它们不仅是中国的地理屏障，更是重要的
+        生态屏障和自然资源库。
+        往下滚动查看更多</text>
+    </view>
+    <view style="flex-direction: column;">
+      <view class="min-ctnr" bind:tap="Qz">
+        <image src="https://www.helloimg.com/i/2025/02/09/67a884f7ea6f3.png" mode="aspectFit" style="flex: 1;" />
+        <text style="font-size: 70rpx;flex:1">青藏高原</text>
+      </view>
+      <view class="min-ctnr" bind:tap="Ht">
+        <image src="https://www.helloimg.com/i/2025/02/09/67a884f7caccb.jpg" mode="aspectFit" style="flex: 1;" />
+        <text style="font-size: 70rpx;flex:1">黄土高原</text>
+      </view>
+      <view class="min-ctnr" bind:tap="Yg">
+        <image src="https://www.helloimg.com/i/2025/02/09/67a884f57d43c.jpg" mode="aspectFit" style="flex: 1;" />
+        <text style="font-size: 70rpx;flex:1">云贵高原</text>
+      </view>
+    </view>
+  </view>
+</scroll-view>

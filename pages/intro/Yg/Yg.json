@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "usingComponents": {
+        "navigation-bar": "/components/navigation-bar/navigation-bar",
+        "towxml": "/towxml/towxml"
+    }
+}

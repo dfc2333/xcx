@@ -1,0 +1,40 @@
+<!--pages/sos/sos.wxml-->
+<navigation-bar title='SOS求救' back="{{true}}" color="black" background="#dfc"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y>
+    <view class="container">
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="direct">
+                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f8a5a83.png" mode="aspectFit"></image>
+                <text class="text-center-flex" style="font-size: 70rpx;">
+                    地图
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="guide">
+                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f87924c.png" mode="aspectFit"></image>
+                <text class="text-center-flex" style="font-size: 50rpx;">
+                    应急指南
+                </text>
+            </view>
+        </view>
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="police">
+                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit"></image>
+                <text class="text-center-flex" style="font-size: 70rpx;">
+                    警察
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="help">
+                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit"></image>
+                <text class="text-center-flex" style="font-size: 70rpx;">
+                    急救
+                </text>
+            </view>
+        </view>
+        <view class='min-ctnr'>
+            <text class="main_content" style="position: relative; left: 0rpx; top: -156rpx; height: 264rpx; display: block; box-sizing: border-box; width: 611rpx">
+                Tips :<br />
+                {{currentTips}}
+            </text>
+        </view>
+    </view>
+</scroll-view>
