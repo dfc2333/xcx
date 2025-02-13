@@ -1,5 +1,27 @@
 <!--pages/sos/map/map.wxml-->
-<navigation-bar title='地图' back="{{true}}" color="black" background="#dfc"></navigation-bar>
-<view style="display: flex; height: 100%;">
-<map longitude="" latitude="" style="flex: 1; height: 90%;"/>
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="地图"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
+<view style="display: flex; height: 100%;flex-direction: column;">
+  <map
+      id="myMap"
+      style="flex:1;height:1000rpx;width:750rpx"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    ></map>
+    <view style="flex: 1">
+    <button bindtap="getCenterLocation" class="page-body-button" type="primary">获取位置</button>
+    <button bindtap="moveToLocation" class="page-body-button" type="primary">移动位置</button>
+    <button bindtap="translateMarker" class="page-body-button" type="primary">移动标注</button>
+  </view>
 </view>

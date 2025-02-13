@@ -6,10 +6,6 @@ page {
   flex-direction: column;
   background: linear-gradient(skyblue, #9d9769);
 }
-.custom-navbar {
-  --td-navbar-color: #000;
-  --td-navbar-bg-color: #dfc;
-}
 .block {
   display: block;
 }
