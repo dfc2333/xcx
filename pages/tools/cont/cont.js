@@ -1,13 +1,26 @@
-// index.js
+// cont.js
+const app = getApp();
 Page({
   data: {
-    pst: '0',
-    text: '敬请期待'
+    article: {},
   },
-  back: function(){
-    wx.navigateBack({
-      delta:1,
-    })
-  }
-
-})
+  onLoad: function () {
+    const _ts = this;
+    const data =`
+  
+`
+        let obj = app.towxml(data, "markdown", {
+          events: {
+            tap: (e) => {
+              console.log("tap", e);
+            },
+            change: (e) => {
+              console.log("todo", e);
+            },
+          },
+        });
+        _ts.setData({
+          article: obj,
+        });
+  },
+});
