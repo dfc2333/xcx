@@ -46,8 +46,8 @@ Page({
     })
   },
   police: function(){
-    wx.makePhoneCall({
-      phoneNumber: '110',
+    wx.navigateTo({
+      url: "/pages/sos/guide_play/guide_play"
     })
   },
   help: function(){
