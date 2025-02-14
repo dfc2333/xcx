@@ -28,8 +28,8 @@
         <text style="font-size: 70rpx;flex:1">黄土高原</text>
       </view>
       <view class="min-ctnr" bind:tap="Yg">
-        <image src="https://www.helloimg.com/i/2025/02/09/67a884f57d43c.jpg" mode="aspectFit" style="flex: 1;" />
-        <text style="font-size: 70rpx;flex:1">云贵高原</text>
+        <image src="https://www.helloimg.com/i/2025/02/09/67a884f57d43c.jpg" mode="aspectFit" style="z.index:-1;flex:1;" />
+        <text style="font-size: 70rpx;flex:1;z.index:10;background-color:rgb(255,255,255,0.5)">云贵高原</text>
       </view>
     </view>
   </view>
