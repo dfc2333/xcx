@@ -10,6 +10,6 @@
   />
 </view>
 <scroll-view class="scrollarea">
-    <image style="display: block;width:100%;height:70%" src="https://7up.pics/images/2025/02/15/1126b02084cf54d93407e30b46d97ab6.jpg" mode="aspectFit"/>
+    <image style="display: block;width:100%;height:70%" src="https://www.helloimg.com/i/2025/02/15/67b0ae1bbec22.jpg" mode="aspectFit"/>
     <text class="main_content" style="font-family: 楷体;width:80%;">珠江，南国玉带蜿蜒如练，哺育千年商都。三江汇流处，疍歌欸乃载岭南水韵，唐宋蕃舶犹闻市舶遗风。夜泛星槎，两岸霓虹共明月流转，小蛮腰倒映潋滟清波。潮生潮落间，见证海上丝路沧桑，涌动湾区时代新澜。</text>
 </scroll-view>

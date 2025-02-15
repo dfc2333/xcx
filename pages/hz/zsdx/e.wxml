@@ -10,6 +10,6 @@
   />
 </view>
 <scroll-view class="scrollarea">
-    <image style="display: block;width:100%;height:70%" src="https://7up.pics/images/2025/02/15/zsdxreal.png" mode="aspectFit"/>
+    <image style="display: block;width:100%;height:70%" src="https://www.helloimg.com/i/2025/02/15/67b0ae1ce9cac.png" mode="aspectFit"/>
     <text class="main_content" style="font-family: 楷体;width:80%;">中山大学，坐落于岭南大地，钟灵毓秀，历史悠久。校园内绿树成荫，书香四溢，汇聚了无数学子的梦想与追求。这里不仅是知识的殿堂，更是思想的熔炉，培育了无数英才，为国家和社会贡献智慧与力量。中山大学，以其独特的魅力，吸引着四面八方的学子，共同书写着辉煌的篇章。</text>
 </scroll-view>

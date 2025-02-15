@@ -9,23 +9,23 @@
         </view>
         <view style="flex-direction: column;">
             <view class="min-ctnr" bind:tap="gzt">
-                <image src="https://7up.pics/images/2025/02/15/gzt.th.png" mode="aspectFit" style="flex: 1;" />
+                <image src="https://www.helloimg.com/i/2025/02/15/67b0ae190c1b4.png" mode="aspectFit" style="flex: 1;" />
                 <text style="font-size: 70rpx;flex:1">广州塔</text>
             </view>
             <view class="min-ctnr" bind:tap="hpgg">
-                <image src="https://7up.pics/images/2025/02/15/7d86876dc31c8a3b7d3910297f0113b4.th.jpg" mode="aspectFit" style="flex:1;" />
+                <image src="https://www.helloimg.com/i/2025/02/15/67b0ae1944ee8.png" mode="aspectFit" style="flex:1;" />
                 <text style="font-size: 70rpx;flex:1;">黄埔古港</text>
             </view>
             <view class="min-ctnr" bind:tap="hzsd">
-                <image src="https://7up.pics/images/2025/02/15/b1338fee240e8177b1b5babc6186d030.th.jpeg" mode="aspectFit" style="flex:1;" />
+                <image src="https://www.helloimg.com/i/2025/02/15/67b0ae1928d1d.jpg" mode="aspectFit" style="flex:1;" />
                 <text style="font-size: 70rpx;flex:1;">海珠湿地</text>
             </view>
             <view class="min-ctnr" bind:tap="zj">
-                <image src="https://7up.pics/images/2025/02/15/1126b02084cf54d93407e30b46d97ab6.th.jpg" mode="aspectFit" style="flex:1;" />
+                <image src="https://www.helloimg.com/i/2025/02/15/67b0ae1ccd187.jpg" mode="aspectFit" style="flex:1;" />
                 <text style="font-size: 70rpx;flex:1;">珠江</text>
             </view>
             <view class="min-ctnr" bind:tap="zsdx">
-                <image src="https://7up.pics/images/2025/02/15/zsdxreal.th.png" mode="aspectFit" style="flex:1;" />
+                <image src="https://www.helloimg.com/i/2025/02/15/67b0ae1c063b9.png" mode="aspectFit" style="flex:1;" />
                 <text style="font-size: 70rpx;flex:1;">中山大学</text>
             </view>
         </view>
