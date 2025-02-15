@@ -44,6 +44,7 @@ Page({
     wx.navigateTo({ url: "/pages/hz/intro" });
   },
   switch_to_wj: function () {
-    wx.navigateTo({ url: "/pages/wj/wj" });
+    //wx.navigateTo({ url: "/pages/wj/wj" });
+    wx.navigateTo({ url: "/pages/new_main_page/new_main_page" });
   },
 });

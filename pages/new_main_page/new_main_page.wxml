@@ -1,0 +1,23 @@
+<!--pages/new_main_page/new_main_page.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="走进高原" t-class-title="nav-title" style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class="scrollarea" scroll-y='true'>
+    <t-swiper current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
+    <t-grid class="block" column="{{4}}" theme="card">
+        <t-grid-item text="高原介绍" icon="article" url="/pages/intro/intro" />
+        <t-grid-item text="必备物品" icon="collection" url="/pages/bp/bp" />
+        <t-grid-item text="SOS求救" icon="error-circle" url="/pages/sos/sos" />
+        <t-grid-item text="工具包" icon="tools" url="/pages/tools/tools" />
+    </t-grid>
+    <t-cell-group theme="card">
+        <t-cell title="两点球面距离" leftIcon="map-distance" hover arrow url="/pages/tools/lalodis/lalo" />
+        <t-cell title="多点最短路径" leftIcon="map-bubble" hover arrow url="/pages/tools/laloleast/lalo" />
+        <t-cell title="最短路径vs医疗点" leftIcon="hospital" hover arrow url="/pages/tools/health/health" />
+        <t-cell title="海拔和含氧量函数" leftIcon="measurement-2" hover arrow url="/pages/tools/high/high" />
+        <t-cell title="昼夜温差极值" leftIcon="chart-line-data-1" hover arrow url="/pages/tools/zy/zy" />
+        <t-cell title="道路坡度参数" leftIcon="mathematics" hover arrow url="/pages/tools/tan/tan" />
+        <t-cell title="海珠文化" leftIcon="city" hover arrow url="/pages/hz/intro" />
+        <t-cell title="用户调查" leftIcon="tips-double" hover arrow url="/pages/wj/wj" />
+    </t-cell-group>
+</scroll-view>

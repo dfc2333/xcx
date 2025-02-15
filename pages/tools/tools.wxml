@@ -37,47 +37,6 @@
                 悬崖的高度</text>
         </view>
     </view>
-    <view class='sub-ctnr'>
-            <view class='min-ctnr' bind:tap="switch_to_share">
-                <t-icon name="map-distance" size="48rpx" data-name="map-distance" />
-                <text class="text-center-flex">两点<br/>
-                球面距离
-                </text>
-            </view>
-            <view class='min-ctnr' bind:tap="switch_to_blog">
-                <t-icon name="map-bubble" size="48rpx" data-name="map-bubble" />
-                <text class="text-center-flex">多点<br/>
-                最短路径
-                </text>
-            </view>
-        </view>
-        <view class='sub-ctnr'>
-            <view class='min-ctnr' bind:tap="switch_to_health">
-                <t-icon name="hospital" size="48rpx" data-name="hospital" />
-                <text class="text-center-flex">最短路径
-                    vs医疗点
-                </text>
-            </view>
-            <view class='min-ctnr' bind:tap="switch_to_high">
-                <t-icon name="measurement-2" size="48rpx" data-name="measurement-2" />
-                <text class="text-center-flex">海拔和含氧量函数
-                </text>
-            </view>
-        </view>
-        <view class='sub-ctnr'>
-            <view class='min-ctnr' bind:tap="switch_to_zy">
-                <t-icon name="chart-line-data-1" size="48rpx" data-name="chart-line-data-1" />
-                <text class="text-center-flex">昼夜温差<br/>
-                极值
-                </text>
-            </view>
-            <view class='min-ctnr' bind:tap="switch_to_tan">
-                <t-icon name="mathematics" size="48rpx" data-name="mathematics" />
-                <text class="text-center-flex">道路坡度<br/>
-                参数
-                </text>
-            </view>
-        </view>
     <view class="sub-ctnr" style="background-color: white;">
     </view>
 </view>
