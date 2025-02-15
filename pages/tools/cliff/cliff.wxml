@@ -1,21 +1,15 @@
 <!--cliff.wxml-->
 <view class="block">
-  <t-navbar
-    t-class-placeholder="t-navbar-placeholder"
-    t-class-content="t-navbar-content"
-    title="算悬崖高度"
-    t-class-title="nav-title"
-    left-arrow
-    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
-  />
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="算悬崖高度" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
 <scroll-view class="scrollarea" scroll-y>
-  <view class="container" style='gap:30rpx'>
     <t-input label="手长" placeholder="请输入你的手长" value="{{empty ? null : boil}}" bindchange="hnd"></t-input>
     <t-input label="悬崖距" placeholder="请输入测得的水沸点" value="{{empty ? null : boil}}" bindchange="hnd"></t-input>
     <t-input label="水沸点" placeholder="请输入测得的水沸点" value="{{empty ? null : boil}}" bindchange="hnd"></t-input>
-      <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="calc">计算</button>
-      <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="del">清空</button>
-      <text class="text-center">{{res}}</text>
-  </view>
+    <view class="container" style='gap:30rpx'>
+
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="calc">计算</button>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="del">清空</button>
+        <text class="text-center">{{res}}</text>
+    </view>
 </scroll-view>

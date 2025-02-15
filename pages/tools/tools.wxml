@@ -1,8 +1,20 @@
 <!--pages/tools/tools.wxml-->
 <view class="block">
-    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="工具" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="工具包" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
-<view class="container" style='border: 20rpx solid white;'>
+<view class="container" style='border: 20rpx solid #eeeeeeee;'>
+    <view class="sub-ctnr">
+        <text class="text-center-flex" style="font-size: 100rpx;color: skyblue;line-height: 400rpx;background-color: #eeeeeeee;">这里有一些工具</text>
+    </view>
+    <t-grid class="block" column="{{2}}" theme="card">
+        <t-grid-item text="地图" icon="article" url="/pages/sos/map/map" />
+        <t-grid-item text="教程" icon="collection" url="/pages/tools/tut/tut" />
+        <t-grid-item text="指南" icon="error-circle" url="/pages/tools/com/com" />
+        <t-grid-item text="联系" icon="tools" url="/pages/tools/cont/cont" />
+        <t-grid-item text="用烧开水测你所在的海拔高度" icon="error-circle" url="/pages/tools/water/water" />
+        <t-grid-item text="用一把尺子测量悬崖的高度" icon="tools" url="/pages/tools/cliff/cliff" />
+    </t-grid>
+    <!--
     <view class="sub-ctnr">
         <view class="min-ctnr" bind:tap="switch_to_map">
             <t-icon name="map" size="48rpx" data-name="map" />
@@ -37,6 +49,7 @@
                 悬崖的高度</text>
         </view>
     </view>
-    <view class="sub-ctnr" style="background-color: white;">
+    -->
+    <view class="sub-ctnr" style="background-color: #eeeeeeee;">
     </view>
 </view>
