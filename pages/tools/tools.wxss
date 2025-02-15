@@ -4,7 +4,7 @@ page {
   width: 750rpx;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(#eeeeeeee, #eeeeeeee);
+  background: linear-gradient(skyblue, #9d9769);
 }
 .block {
   display: block;

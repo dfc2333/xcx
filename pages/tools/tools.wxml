@@ -2,9 +2,9 @@
 <view class="block">
     <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="工具包" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
-<view class="container" style='border: 20rpx solid #eeeeeeee;'>
+<view class="container">
     <view class="sub-ctnr">
-        <text class="text-center-flex" style="font-size: 100rpx;color: skyblue;line-height: 400rpx;background-color: #eeeeeeee;">这里有一些工具</text>
+        <text class="text-center-flex" style="font-size: 100rpx; line-height: 400rpx;">这里有一些工具</text>
     </view>
     <t-grid class="block" column="{{2}}" theme="card">
         <t-grid-item text="地图" icon="article" url="/pages/sos/map/map" />
@@ -50,6 +50,6 @@
         </view>
     </view>
     -->
-    <view class="sub-ctnr" style="background-color: #eeeeeeee;">
+    <view class="sub-ctnr">
     </view>
 </view>
