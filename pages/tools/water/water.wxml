@@ -10,9 +10,8 @@
   />
 </view>
 <scroll-view class="scrollarea" scroll-y>
+  <t-input label="水沸点" placeholder="请输入测得的水沸点" value="{{empty ? null : boil}}" bindchange="calc"></t-input>
   <view class="container">
-  <view style="height: 100rpx;"></view>
-      <input type="text" id="temp" class="ui" placeholder="输入你测得的水沸点" bindinput="calc"/>
       <text class="text-center" style="width:700rpx; border: 1px solid grey;border-radius: 10rpx;">{{res}}</text>
   </view>
 </scroll-view>

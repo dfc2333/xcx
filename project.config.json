@@ -34,5 +34,6 @@
     "packOptions": {
         "ignore": [],
         "include": []
-    }
+    },
+    "appid": "wxd31d2cd0613de518"
 }

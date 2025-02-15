@@ -40,24 +40,6 @@ Page({
       url: "/pages/tools/tools",
     });
   },
-  switch_to_share: function () {
-    wx.navigateTo({ url: "/pages/tools/lalodis/lalo" });
-  },
-  switch_to_blog: function () {
-    wx.navigateTo({ url: "/pages/tools/laloleast/lalo" });
-  },
-  switch_to_health: function () {
-    wx.navigateTo({ url: "/pages/tools/health/health" });
-  },
-  switch_to_high: function () {
-    wx.navigateTo({ url: "/pages/tools/high/high" });
-  },
-  switch_to_tan: function () {
-    wx.navigateTo({ url: "/pages/tools/tan/tan" });
-  },
-  switch_to_zy: function () {
-    wx.navigateTo({ url: "/pages/tools/zy/zy" });
-  },
   switch_to_culture: function () {
     wx.navigateTo({ url: "/pages/hz/intro" });
   },
