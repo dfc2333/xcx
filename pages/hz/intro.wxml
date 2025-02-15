@@ -1,6 +1,6 @@
 <!--pages/intro.wxml-->
 <view class="block">
-    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="高原介绍" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="海珠文化" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
 <scroll-view class='scrollarea' scroll-y="true">
     <view class="container">

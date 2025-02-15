@@ -3,7 +3,7 @@
     "projectname": "miniprogram-2",
     "setting": {
         "compileHotReLoad": false,
-        "urlCheck": false,
+        "urlCheck": true,
         "skylineRenderEnable": false
     },
     "libVersion": "3.7.7"

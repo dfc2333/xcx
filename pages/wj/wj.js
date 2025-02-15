@@ -1,9 +1,6 @@
 // pages/wj/wj.js
 Page({
-  data: {},
-  navigateToTarget: function() {
-    wx.navigateTo({
-      url: 'https://www.wjx.cn/vm/PAG0uzX.aspx',
-    });
-  }
+  data: {
+    style: 'border: 2rpx solid var(--td-input-border-color-example);border-radius: 12rpx;',
+  },
 });

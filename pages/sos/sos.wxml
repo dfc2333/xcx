@@ -3,7 +3,7 @@
   <t-navbar
     t-class-placeholder="t-navbar-placeholder"
     t-class-content="t-navbar-content"
-    title="求救"
+    title="SOS求救"
     t-class-title="nav-title"
     left-arrow
     style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
@@ -13,13 +13,13 @@
     <view class="container">
         <view class='sub-ctnr'>
             <view class='min-ctnr' bind:tap="direct">
-                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f8a5a83.png" mode="aspectFit"></image>
-                <text class="text-center-flex" style="font-size: 70rpx;">
+                <t-icon name="map" size="72rpx" data-name="map" />
+                <text class="text-center-flex" style="font-size: 50rpx;">
                     地图
                 </text>
             </view>
             <view class='min-ctnr' bind:tap="guide">
-                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f87924c.png" mode="aspectFit"></image>
+                <t-icon name="compass" size="72rpx" data-name="compass" />
                 <text class="text-center-flex" style="font-size: 50rpx;">
                     应急指南
                 </text>
@@ -27,14 +27,14 @@
         </view>
         <view class='sub-ctnr'>
             <view class='min-ctnr' bind:tap="police">
-                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit"></image>
-                <text class="text-center-flex" style="font-size: 70rpx;">
+                <t-icon name="call" size="72rpx" data-name="call" />
+                <text class="text-center-flex" style="font-size: 50rpx;">
                     警察
                 </text>
             </view>
             <view class='min-ctnr' bind:tap="help">
-                <image class="icon" src="https://www.helloimg.com/i/2025/02/09/67a884f666608.png" mode="aspectFit"></image>
-                <text class="text-center-flex" style="font-size: 70rpx;">
+                <t-icon name="call" size="72rpx" data-name="call" />
+                <text class="text-center-flex" style="font-size: 50rpx;">
                     急救
                 </text>
             </view>
