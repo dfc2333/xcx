@@ -1,47 +1,45 @@
 <!--pages/tools/tools.wxml-->
 <view class="block">
-  <t-navbar
-    t-class-placeholder="t-navbar-placeholder"
-    t-class-content="t-navbar-content"
-    title="工具"
-    t-class-title="nav-title"
-    left-arrow
-    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
-  />
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="工具" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
 <view class="container" style='border: 20rpx solid white;'>
-  <view class="sub-ctnr">
-    <text class="text-center-flex" style="font-size: 100rpx;color: skyblue;line-height: 400rpx;background-color: white;">这里有一些工具</text>
-  </view>
-  <view class="sub-ctnr">
-    <view class="min-ctnr" bind:tap="switch_to_map">
-      <image src="/images/tools/map.png" mode="aspectFit" class='icon'/> <text class="text-center-flex" style="font-size: 60rpx;">地图</text>
+    <view class="sub-ctnr">
+        <text class="text-center-flex" style="font-size: 100rpx;color: skyblue;line-height: 400rpx;background-color: white;">这里有一些工具</text>
     </view>
-    <view class="min-ctnr" bind:tap="switch_to_tut">
-      <image src="/images/tools/Tutorial.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 60rpx;">教程</text>
+    <view class="sub-ctnr">
+        <view class="min-ctnr" bind:tap="switch_to_map">
+            <t-icon name="map" size="48rpx" data-name="map" />
+            <text class="text-center-flex" style="font-size: 60rpx;">地图</text>
+        </view>
+        <view class="min-ctnr" bind:tap="switch_to_tut">
+            <t-icon name="address-book" size="48rpx" data-name="address-book" />
+            <text class="text-center-flex" style="font-size: 60rpx;">教程</text>
+        </view>
     </view>
-  </view>
-  <view class="sub-ctnr">
-    <view class="min-ctnr" bind:tap="switch_to_com">
-      <image src="/images/tools/Compass.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 60rpx;">指南</text>
+    <view class="sub-ctnr">
+        <view class="min-ctnr" bind:tap="switch_to_com">
+            <t-icon name="compass" size="48rpx" data-name="compass" />
+            <text class="text-center-flex" style="font-size: 60rpx;">指南</text>
+        </view>
+        <view class="min-ctnr" bind:tap="switch_to_cont">
+            <t-icon name="call" size="48rpx" data-name="call" />
+            <text class="text-center-flex" style="font-size: 60rpx;">联系</text>
+        </view>
     </view>
-    <view class="min-ctnr" bind:tap="switch_to_cont">
-      <image src="/images/tools/contact.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 60rpx;">联系</text>
+    <view class="sub-ctnr">
+        <view class="min-ctnr" bind:tap="water">
+            <t-icon name="tea" size="48rpx" data-name="tea" />
+            <text class="text-center-flex" style="font-size: 30rpx;">用烧开水
+                测你所在的
+                海拔高度</text>
+        </view>
+        <view class="min-ctnr" bind:tap="cliff">
+            <t-icon name="measurement" size="48rpx" data-name="measurement" />
+            <text class="text-center-flex" style="font-size: 30rpx;">用一把尺子
+                测量
+                悬崖的高度</text>
+        </view>
     </view>
-  </view>
-  <view class="sub-ctnr">
-    <view class="min-ctnr" bind:tap="water">
-      <image src="/images/tools/Compass.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 30rpx;">用烧开水
-      测你所在的
-      海拔高度</text>
+    <view class="sub-ctnr" style="background-color: white;">
     </view>
-    <view class="min-ctnr" bind:tap="cliff">
-      <image src="/images/tools/Compass.png" mode="aspectFit" class='icon' /> <text class="text-center-flex" style="font-size: 30rpx;">用一把尺子
-      测量
-      悬崖的高度</text>
-    </view>
-  </view>
-  <view class="sub-ctnr" style="background-color: white;">
-    <text class="text-center-flex" style="font-size: 50rpx;">敬请期待</text>
-  </view>
 </view>

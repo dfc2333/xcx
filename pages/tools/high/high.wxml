@@ -1,0 +1,12 @@
+<!--pages/tools/high/high.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="海拔和含氧量函数" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class="scrollarea" scroll-y>
+    <t-input label="当前高度" placeholder="请输入当前的高度" value="{{empty ? null : high}}" bindchange="onHighInput"></t-input>
+    <view class="container" style='gap:30rpx'>
+        <text class="text-center" style="width:600rpx">{{citieslistuab}}</text>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="a">计算</button>
+        <text class="text-center">{{res}}</text>
+    </view>
+</scroll-view>

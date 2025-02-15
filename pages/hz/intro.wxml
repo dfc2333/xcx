@@ -1,0 +1,33 @@
+<!--pages/intro.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="高原介绍" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class='scrollarea' scroll-y="true">
+    <view class="container">
+        <view style="display: flex;width:100%;background-color: white;align-items:center;justify-content:center;">
+            <text user-select='true' style="font-size: 40rpx;text-align: center; font-family: 楷体;">【珠水南岸 千年蝶变】海珠区位于广州珠江航道南岸，是中心城区中唯一的岛区，历经百年行政变迁，从传统水乡蜕变为都市绿洲。这里坐拥万亩海珠湿地”城市绿心”，环岛碧道串联起琶洲数字经济走廊与历史人文地标。漫步滨江路可眺珠江新城天际线，深入南华西街巷可见百年骑楼风华，登临广州塔则揽尽三江汇流胜景。作为广交会发源地，琶洲人工智能与数字经济试验区正重塑湾区科创版图。新旧交融间，海珠以水为脉、以绿为韵，书写着”老城新区”的独特篇章。</text>
+        </view>
+        <view style="flex-direction: column;">
+            <view class="min-ctnr" bind:tap="gzt">
+                <image src="https://7up.pics/images/2025/02/15/gzt.th.png" mode="aspectFit" style="flex: 1;" />
+                <text style="font-size: 70rpx;flex:1">广州塔</text>
+            </view>
+            <view class="min-ctnr" bind:tap="hpgg">
+                <image src="https://7up.pics/images/2025/02/15/7d86876dc31c8a3b7d3910297f0113b4.th.jpg" mode="aspectFit" style="flex:1;" />
+                <text style="font-size: 70rpx;flex:1;">黄埔古港</text>
+            </view>
+            <view class="min-ctnr" bind:tap="hzsd">
+                <image src="https://7up.pics/images/2025/02/15/b1338fee240e8177b1b5babc6186d030.th.jpeg" mode="aspectFit" style="flex:1;" />
+                <text style="font-size: 70rpx;flex:1;">海珠湿地</text>
+            </view>
+            <view class="min-ctnr" bind:tap="zj">
+                <image src="https://7up.pics/images/2025/02/15/1126b02084cf54d93407e30b46d97ab6.th.jpg" mode="aspectFit" style="flex:1;" />
+                <text style="font-size: 70rpx;flex:1;">珠江</text>
+            </view>
+            <view class="min-ctnr" bind:tap="zsdx">
+                <image src="https://7up.pics/images/2025/02/15/zsdxreal.th.png" mode="aspectFit" style="flex:1;" />
+                <text style="font-size: 70rpx;flex:1;">中山大学</text>
+            </view>
+        </view>
+    </view>
+</scroll-view>

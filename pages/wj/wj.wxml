@@ -1,0 +1,5 @@
+<!--pages/wj/wj.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="用户调查" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+    
+</view>

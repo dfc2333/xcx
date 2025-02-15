@@ -15,12 +15,26 @@
         "pages/tools/cont/cont",
         "pages/sos/guide/guide",
         "pages/tools/water/water",
-        "pages/tools/cliff/cliff"
+        "pages/tools/cliff/cliff",
+        "pages/sos/guide_play/guide_play",
+        "pages/tools/lalodis/lalo",
+        "pages/tools/laloleast/lalo",
+        "pages/tools/health/health",
+        "pages/tools/high/high",
+        "pages/tools/tan/tan",
+        "pages/tools/zy/zy",
+        "pages/hz/intro",
+        "pages/hz/gzt/e",
+        "pages/hz/hpgg/e",
+        "pages/hz/hzsd/e",
+        "pages/hz/zj/e",
+        "pages/hz/zsdx/e",
+        "pages/wj/wj"
     ],
     "permission": {
-      "scope.userLocation": {
-        "desc": "你的位置信息将用于地图上的显示" 
-      }
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于地图上的显示"
+        }
     },
     "window": {
         "backgroundTextStyle": "light",
@@ -31,7 +45,8 @@
     },
     "usingComponents": {
         "t-navbar": "tdesign-miniprogram/navbar/navbar",
-        "t-icon": "tdesign-miniprogram/icon/icon"
+        "t-icon": "tdesign-miniprogram/icon/icon",
+        "t-input": "tdesign-miniprogram/input/input"
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

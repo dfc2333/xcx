@@ -40,6 +40,7 @@ page {
   text-align: center;
   flex: 1;
   line-height: 100%;
+  font-size: 40rpx;
 }
 .icon {
   width: 80rpx;

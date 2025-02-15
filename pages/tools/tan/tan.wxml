@@ -1,0 +1,14 @@
+<!--cliff.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="测坡度" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class="scrollarea" scroll-y>
+    <t-input label="上侧水与底面距离" placeholder="请输入上侧水与底面的距离" value="{{empty ? null : short}}" bindchange="onShortInput"></t-input>
+    <t-input label="下侧水与底面距离" placeholder="请输入下侧水与底面的距离" value="{{empty ? null : long}}" bindchange="onLongInput"></t-input>
+    <t-input label="瓶底直径" placeholder="请输入瓶底的直径" value="{{empty ? null : d}}" bindchange="onDInput"></t-input>
+    <view class="container" style='gap:30rpx'>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="calc">计算</button>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="del">清空</button>
+        <text class="text-center">{{res}}</text>
+    </view>
+</scroll-view>

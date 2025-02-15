@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "navigation-bar": "/components/navigation-bar/navigation-bar",
+        "t-picker": "tdesign-miniprogram/picker/picker",
+        "t-cell": "tdesign-miniprogram/cell/cell",
+        "t-picker-item": "tdesign-miniprogram/picker-item/picker-item"
+    }
+}

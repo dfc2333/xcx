@@ -1,0 +1,17 @@
+<!--cliff.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="算距离" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class="scrollarea" scroll-y>
+    <t-input label="城市" placeholder="请输入城市的名称" value="{{empty ? null : cityName}}" bindchange="onCityInput"></t-input>
+    <t-input label="经度" placeholder="请输入城市的经度" value="{{empty ? null : lon1}}" bindchange="onJingInput"></t-input>
+    <t-input label="纬度" placeholder="请输入城市的纬度" value="{{empty ? null : lat1}}" bindchange="onWeiInput"></t-input>
+    <view class="container" style='gap:30rpx'>
+        <text class="text-center" style="width:600rpx">{{citieslistuab}}</text>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="submit">添加城市</button>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="calculateDistance">计算</button>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="delin">清空输入框</button>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="deldi">清空已有城市</button>
+        <text class="text-center">{{res}}</text>
+    </view>
+</scroll-view>

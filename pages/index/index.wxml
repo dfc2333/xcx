@@ -1,57 +1,86 @@
 <!--index.wxml-->
 <view class="block">
-  <t-navbar
-    t-class-placeholder="t-navbar-placeholder"
-    t-class-content="t-navbar-content"
-    title="走进高原"
-    t-class-title="nav-title"
-    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
-  />
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="走进高原" t-class-title="nav-title" style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
 <scroll-view class="scrollarea" scroll-y='true'>
-  <view class="container"style='border: 20rpx solid white;'>
-    <image id="img1" src="https://www.helloimg.com/i/2025/02/09/67a884f1c8ae4.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
-    <view class='sub-ctnr'>
-      <view class='min-ctnr' bind:tap="switch_to_intro">
-        <image class="icon" src="/images/index/iconIntro.png" mode="aspectFit"></image>
-        <text class="text-center-flex" >
-          高原介绍
-        </text>
-      </view>
-      <view class='min-ctnr' bind:tap="switch_to_bp">
-        <image class="icon" src="/images/index/iconBp.png" mode="aspectFit" ></image>
-        <text class="text-center-flex" >
-          必备物品
-        </text>
-      </view>
+    <view class="container" style='border: 20rpx solid white;'>
+        <image id="img1" src="https://www.helloimg.com/i/2025/02/09/67a884f1c8ae4.jpg" mode="aspectFit" show-menu-by-longpress="true"></image>
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="switch_to_intro">
+                <t-icon name="article" size="48rpx" data-name="article" />
+                <text class="text-center-flex">高原介绍
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="switch_to_bp">
+                <t-icon name="collection" size="48rpx" data-name="collection" />
+                <text class="text-center-flex">必备物品
+                </text>
+            </view>
+        </view>
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="switch_to_sos">
+                <t-icon name="error-circle" size="48rpx" data-name="error-circle" />
+                <text class="text-center-flex">SOS求救
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="switch_to_tools">
+                <t-icon name="tools" size="48rpx" data-name="tools" />
+                <text class="text-center-flex">工具包
+                </text>
+            </view>
+        </view>
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="switch_to_share">
+                <t-icon name="map-distance" size="48rpx" data-name="map-distance" />
+                <text class="text-center-flex">两点<br/>
+                球面距离
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="switch_to_blog">
+                <t-icon name="map-bubble" size="48rpx" data-name="map-bubble" />
+                <text class="text-center-flex">多点<br/>
+                最短路径
+                </text>
+            </view>
+        </view>
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="switch_to_health">
+                <t-icon name="hospital" size="48rpx" data-name="hospital" />
+                <text class="text-center-flex">最短路径
+                    vs医疗点
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="switch_to_high">
+                <t-icon name="measurement-2" size="48rpx" data-name="measurement-2" />
+                <text class="text-center-flex">海拔和含氧量函数
+                </text>
+            </view>
+        </view>
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="switch_to_zy">
+                <t-icon name="chart-line-data-1" size="48rpx" data-name="chart-line-data-1" />
+                <text class="text-center-flex">昼夜温差<br/>
+                极值
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="switch_to_tan">
+                <t-icon name="mathematics" size="48rpx" data-name="mathematics" />
+                <text class="text-center-flex">道路坡度<br/>
+                参数
+                </text>
+            </view>
+        </view>
+        <view class='sub-ctnr'>
+            <view class='min-ctnr' bind:tap="switch_to_culture">
+                <t-icon name="city" size="48rpx" data-name="city" />
+                <text class="text-center-flex">海珠文化
+                </text>
+            </view>
+            <view class='min-ctnr' bind:tap="switch_to_wj">
+                <t-icon name="tips-double" size="48rpx" data-name="tips-double" />
+                <text class="text-center-flex">用户调查
+                </text>
+            </view>
+        </view>
     </view>
-    <view class='sub-ctnr'>
-      <view class='min-ctnr' bind:tap="switch_to_sos">
-        <image class='icon' src="/images/index/iconSos.png" mode="aspectFit"></image>
-        <text class="text-center-flex" >
-          SOS求救
-        </text>
-      </view>
-      <view class='min-ctnr' bind:tap="switch_to_tools">
-        <image class="icon" src="/images/index/iconTools.png" mode="aspectFit"></image>
-        <text class="text-center-flex" >
-          工具包
-        </text>
-      </view>
-    </view>
-    <view class='sub-ctnr'>
-      <view class='min-ctnr' bind:tap="switch_to_share">
-        <image class="icon" src="/images/index/iconShare.png" mode="aspectFit"></image>
-        <text class="text-center-flex" >
-          订酒店
-        </text>
-      </view>
-      <view class='min-ctnr' bind:tap="switch_to_blog">
-        <image class="icon" src="/images/index/iconBlog.png" mode="aspectFit"></image>
-        <text class="text-center-flex" >
-          订机票
-        </text>
-      </view>
-    </view>
-  </view>
 </scroll-view>

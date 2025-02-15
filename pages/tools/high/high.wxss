@@ -1,0 +1,25 @@
+/**p1.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+.container {
+  align-items: center;
+  justify-content: start;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-center {
+  margin-left: -50rpx;
+  margin-right: -50rpx;
+}
+.ui {
+  border: 1px solid gray;
+  border-radius: 10rpx;
+  width: 700rpx;
+}

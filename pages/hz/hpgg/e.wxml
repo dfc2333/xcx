@@ -1,0 +1,15 @@
+<!--pages/intro/Qz/Qz.wxml-->
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="黄埔古港"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
+<scroll-view class="scrollarea">
+    <image style="display: block;width:100%;height:70%" src="https://7up.pics/images/2025/02/15/7d86876dc31c8a3b7d3910297f0113b4.jpg" mode="aspectFit"/>
+    <text class="main_content" style="font-family: 楷体;width:80%;">黄埔古港，珠江口千年商埠的活态卷轴。清代蕃舶樯橹连云，十三行商旗猎猎，海上丝路明珠在此焕彩。今青石苔痕犹刻市舶遗韵，新港桥影遥接远洋帆樯，古码头斑驳肌理间，仍可闻四海潮音叩响时光之门。</text>
+</scroll-view>

@@ -1,0 +1,5 @@
+/* pages/intro/Qz/Qz.wxss */
+.page{
+    display:flex;
+    height:1000rpx
+}

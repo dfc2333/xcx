@@ -1,0 +1,17 @@
+<!--pages/tools/high/high.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="昼夜温差" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class="scrollarea" scroll-y>
+    <t-cell class="mb-16" title="选择城市" arrow hover note="{{cityText}}" bind:click="onCityPicker" />
+    <t-picker visible="{{cityVisible}}" value="{{cityValue}}" data-key="city" title="选择城市" cancelBtn="取消" confirmBtn="确认" bindchange="onPickerChange" bindpick="onColumnChange" bindcancel="onPickerCancel">
+        <t-picker-item options="{{citys}}" />
+    </t-picker>
+    <t-input label="当前月份" placeholder="请输入当前的月份" value="{{empty ? null : month}}" bindchange="onMonthInput"></t-input>
+    <t-input label="当前高度" placeholder="请输入当前的高度" value="{{empty ? null : high}}" bindchange="onHighInput"></t-input>
+    <view class="container" style='gap:30rpx'>
+        <text class="text-center" style="width:600rpx">{{citieslistuab}}</text>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="a">计算</button>
+        <text class="text-center">{{res}}</text>
+    </view>
+</scroll-view>

@@ -1,0 +1,15 @@
+<!--pages/intro/Qz/Qz.wxml-->
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="海珠湿地"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
+<scroll-view class="scrollarea">
+    <image style="display: block;width:100%;height:70%" src="https://7up.pics/images/2025/02/15/b1338fee240e8177b1b5babc6186d030.jpeg" mode="aspectFit"/>
+    <text class="main_content" style="font-family: 楷体;width:80%;">海珠国家湿地公园，都市绿心嵌珠江之畔。千亩果林涵养古法农耕智慧，万顷碧波倒映摩天楼群。鹭影裁云处，红树林轻吟潮汐韵律，四季花田泼彩如织。城央秘境架起生态虹桥，让千年水乡记忆在现代肌理中绵延生息</text>
+</scroll-view>

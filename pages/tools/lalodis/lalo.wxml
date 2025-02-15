@@ -1,0 +1,15 @@
+<!--cliff.wxml-->
+<view class="block">
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="算距离" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class="scrollarea" scroll-y>
+    <t-input label="起点经度" placeholder="请输入城市的经度" value="{{empty ? null : lon1}}" bindchange="onJing1Input"></t-input>
+    <t-input label="起点纬度" placeholder="请输入城市的纬度" value="{{empty ? null : lat1}}" bindchange="onWei1Input"></t-input>
+    <t-input label="目的地经度" placeholder="请输入城市的经度" value="{{empty ? null : lon2}}" bindchange="onJing2Input"></t-input>
+    <t-input label="目的地纬度" placeholder="请输入城市的纬度" value="{{empty ? null : lat2}}" bindchange="onWei2Input"></t-input>
+    <view class="container" style='gap:30rpx'>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="calculateDistance">计算</button>
+        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="del">清空</button>
+        <text class="text-center">{{res}}</text>
+    </view>
+</scroll-view>
