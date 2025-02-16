@@ -8,7 +8,7 @@ const swiperList = [
 ];
 Page({
   data: {
-    res: "这里将显示悬崖高度近似值",
+    res: "这里将显示坡度的近似值",
     long: "",
     short: "",
     d: "",

@@ -10,7 +10,7 @@
             <t-grid-item text="地图" icon="map" url="/pages/sos/map/map" />
             <t-grid-item text="应急指南" icon="compass" url="/pages/sos/guide/guide" />
             <t-grid-item text="警察" icon="call" click="police" url="/pages/sos/guide_play/guide_play" />
-            <t-grid-item text="急救" icon="call" click="help" url="/pages/sos/guide_play/guide_play" />
+            <t-grid-item text="急救" icon="call" click="help" url="/pages/sos/guide_play_2/guide_play" />
         </t-grid>
         <!--
         <view class='sub-ctnr'>

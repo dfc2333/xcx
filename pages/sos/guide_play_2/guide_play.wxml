@@ -1,0 +1,18 @@
+<!--guide_play.wxml-->
+<view class="block">
+  <t-navbar
+    t-class-placeholder="t-navbar-placeholder"
+    t-class-content="t-navbar-content"
+    title="镇定一下"
+    t-class-title="nav-title"
+    left-arrow
+    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
+  />
+</view>
+<scroll-view class="scrollarea" scroll-y>
+  <view class="container" style="margin:100rpx;border:30rpx solid grey;height:900rpx">
+   <text class="main_content">{{currentTips}}</text>
+   <button bind:tap="save">保存这条</button>
+  </view>
+  <text class="main_content">{{savedTips}}</text>
+</scroll-view>

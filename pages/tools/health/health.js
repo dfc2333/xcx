@@ -1,7 +1,7 @@
 // index.js
 Page({
   data: {
-    res: "这里将显示球面距离近似值",
+    res: "这里将显示考虑医疗点覆盖率后的多点最短路径",
     citieslist: [],
     cityName: "",
     lat1: "",

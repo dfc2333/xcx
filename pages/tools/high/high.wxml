@@ -6,7 +6,7 @@
     <t-input label="当前高度" placeholder="请输入当前的高度" value="{{empty ? null : high}}" bindchange="onHighInput"></t-input>
     <view class="container" style='gap:30rpx'>
         <text class="text-center" style="width:600rpx">{{citieslistuab}}</text>
-        <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="a">计算</button>
-        <text class="text-center">{{res}}</text>
+        <button type="default" style="border: 1px solid grey; border-radius: 10rpx; position: relative; left: 0rpx; top: -2rpx" bind:tap="a">计算</button>
+        <text class="text-center" style="position: relative; left: 0rpx; top: 138rpx; width: 600rpx; display: block; box-sizing: border-box">{{res}}</text>
     </view>
 </scroll-view>

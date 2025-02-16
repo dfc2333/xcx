@@ -28,4 +28,8 @@
         <t-cell title="海珠文化" leftIcon="city" hover arrow url="/pages/hz/intro" />
         <t-cell title="用户调查" leftIcon="tips-double" hover arrow url="/pages/wj/wj" />
     </t-cell-group>
+    <t-footer text="Used Github sbfkcel/towxml"></t-footer>
+    <t-footer text="Used Github Tencent/tdesign-miniprogram License: MIT"></t-footer>
+    <t-footer text="-"></t-footer>
+    <t-footer text="Copyright © 2025 Guangzhou No.5 Middle School"></t-footer>
 </scroll-view>

@@ -101,7 +101,7 @@ Page({
   },
   onLoad: function () {
     wx.makePhoneCall({
-      phoneNumber: "110",
+      phoneNumber: "120",
     });
     this.setData({
       currentTips: this.data.tipsList[Math.floor(Math.random() * 10)],
