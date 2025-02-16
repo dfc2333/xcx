@@ -3,14 +3,21 @@
     <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="走进高原" t-class-title="nav-title" style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
 <scroll-view class="scrollarea" scroll-y='true'>
-    <t-swiper current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
-    <t-grid class="block" column="{{4}}" theme="card">
+    <view style="padding: 25rpx;">
+    <t-swiper style="width: 700rpx" current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" /></view>
+    <t-grid class="block" column="{{3}}" theme="card">
         <t-grid-item text="高原介绍" icon="article" url="/pages/intro/intro" />
         <t-grid-item text="必备物品" icon="collection" url="/pages/bp/bp" />
         <t-grid-item text="SOS求救" icon="error-circle" url="/pages/sos/sos" />
-        <t-grid-item text="工具包" icon="tools" url="/pages/tools/tools" />
+        <t-grid-item text="教程" icon="address-book" url="/pages/tools/tut/tut" />
+        <t-grid-item text="指南" icon="compass" url="/pages/tools/com/com" />
+        <t-grid-item text="服务热线" icon="call" url="/pages/tools/cont/cont" />
     </t-grid>
+    <view style="height: 25rpx;"></view>
     <t-cell-group theme="card">
+        <t-cell title="地图" leftIcon="map" hover arrow url="/pages/sos/map/map" />
+        <t-cell title="用烧开水测你所在的海拔高度" leftIcon="tea" hover arrow url="/pages/tools/water/water" />
+        <t-cell title="用一把尺子测量悬崖的高度" leftIcon="measurement" hover arrow url="/pages/tools/cliff/cliff" />
         <t-cell title="两点球面距离" leftIcon="map-distance" hover arrow url="/pages/tools/lalodis/lalo" />
         <t-cell title="多点最短路径" leftIcon="map-bubble" hover arrow url="/pages/tools/laloleast/lalo" />
         <t-cell title="最短路径vs医疗点" leftIcon="hospital" hover arrow url="/pages/tools/health/health" />
