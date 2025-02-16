@@ -4,7 +4,8 @@
 </view>
 <scroll-view class="scrollarea" scroll-y='true'>
     <view style="padding: 25rpx;">
-    <t-swiper style="width: 700rpx" current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" /></view>
+        <t-swiper style="width: 700rpx" current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
+    </view>
     <t-grid class="block" column="{{3}}" theme="card">
         <t-grid-item text="高原介绍" icon="article" url="/pages/intro/intro" />
         <t-grid-item text="必备物品" icon="collection" url="/pages/bp/bp" />

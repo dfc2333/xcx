@@ -10,5 +10,8 @@
         <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="calc">计算</button>
         <button type="default" style="border: 1px solid grey;border-radius: 10rpx;" bind:tap="del">清空</button>
         <text class="text-center">{{res}}</text>
+        <view style="padding: 200rpx;">
+            <t-swiper style="width: 500rpx" current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
+        </view>
     </view>
 </scroll-view>

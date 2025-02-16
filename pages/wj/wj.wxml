@@ -1,8 +1,13 @@
 <!--pages/wj/wj.wxml-->
 <view class="block">
     <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="用户调查" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+</view>
+<scroll-view class="scrollarea" scroll-y='true'>
+    <view style="padding: 200rpx;">
+        <t-swiper style="width: 350rpx" current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" list="{{swiperList}}" navigation="{{ { type: 'dots-bar' } }}" />
+    </view>
     <view class="input-example">
         <view class="input-example__label"> 请复制以下链接填写调查问卷以支持我们 </view>
         <t-input placeholder="https://www.wjx.cn/vm/PAG0uzX.aspx#" value="https://www.wjx.cn/vm/PAG0uzX.aspx#" borderless="{{true}}" style="{{style}}" />
     </view>
-</view>
+</scroll-view>

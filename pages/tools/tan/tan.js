@@ -1,11 +1,23 @@
 // index.js
+const imageUrl = "https://www.helloimg.com/i";
+const swiperList = [
+  {
+    value: `${imageUrl}/2025/02/16/67b14d02efdc9.png`,
+    ariaLabel: "High.jpg",
+  },
+];
 Page({
   data: {
     res: "这里将显示悬崖高度近似值",
     long: "",
     short: "",
     d: "",
-    empty: false
+    empty: false,
+    current: 1,
+    autoplay: true,
+    duration: 500,
+    interval: 5000,
+    swiperList,
   },
   long: function (e) {
     this.setData({
@@ -30,9 +42,9 @@ Page({
     var short = this.data.short;
     var d = this.data.d;
     if (parseFloat(long) && parseFloat(short) && parseFloat(d)) {
-      var tan = (long-short)/d
-      var rad = Math.atan(tan)
-      var degree = rad * (180 / Math.PI)
+      var tan = (long - short) / d;
+      var rad = Math.atan(tan);
+      var degree = rad * (180 / Math.PI);
       this.setData({
         res: degree,
       });
@@ -56,21 +68,21 @@ Page({
   onShortInput(e) {
     this.setData({
       short: e.detail.value,
-      empty: false
+      empty: false,
     });
     console.log("high changed", this.data.high);
   },
   onLongInput(e) {
     this.setData({
       long: e.detail.value,
-      empty: false
+      empty: false,
     });
     console.log("high changed", this.data.high);
   },
   onDInput(e) {
     this.setData({
       d: e.detail.value,
-      empty: false
+      empty: false,
     });
     console.log("high changed", this.data.high);
   },
