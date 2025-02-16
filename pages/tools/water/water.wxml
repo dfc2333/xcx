@@ -11,7 +11,6 @@
 </view>
 <scroll-view class="scrollarea" scroll-y>
   <t-input label="水沸点" placeholder="请输入测得的水沸点" value="{{empty ? null : boil}}" bindchange="calc"></t-input>
-  <view class="container">
-      <text class="text-center" style="width:700rpx; border: 1px solid grey;border-radius: 10rpx;">{{res}}</text>
-  </view>
+  <t-input placeholder=" " disabled/>
+  <t-input placeholder=" <- 这里将显示你的海拔高度近似值" label="{{res}}" disabled/>
 </scroll-view>
