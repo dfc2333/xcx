@@ -6,8 +6,7 @@ Page({
   },
   onLoad: function () {
     const _ts = this;
-    const data =`---
-
+    const data =`
 ### **一、高原地区政府联系电话**
 1. **西藏自治区阿里地区行政公署**  
    - 联系电话：0897-2801775  

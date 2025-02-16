@@ -1,6 +1,6 @@
 <!--cliff.wxml-->
 <view class="block">
-    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="算距离" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="多点最短路径" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
 <scroll-view class="scrollarea" scroll-y>
     <t-input label="城市" placeholder="请输入城市的名称" value="{{empty ? null : cityName}}" bindchange="onCityInput"></t-input>

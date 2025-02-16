@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/new_main_page/new_main_page",
         "pages/index/index",
         "pages/p1/p1",
         "pages/intro/intro",
@@ -17,6 +18,7 @@
         "pages/tools/water/water",
         "pages/tools/cliff/cliff",
         "pages/sos/guide_play/guide_play",
+        "pages/sos/guide_play_2/guide_play",
         "pages/tools/lalodis/lalo",
         "pages/tools/laloleast/lalo",
         "pages/tools/health/health",
@@ -46,7 +48,13 @@
     "usingComponents": {
         "t-navbar": "tdesign-miniprogram/navbar/navbar",
         "t-icon": "tdesign-miniprogram/icon/icon",
-        "t-input": "tdesign-miniprogram/input/input"
+        "t-input": "tdesign-miniprogram/input/input",
+        "t-swiper": "tdesign-miniprogram/swiper/swiper",
+        "t-grid": "tdesign-miniprogram/grid/grid",
+        "t-grid-item": "tdesign-miniprogram/grid-item/grid-item",
+        "t-cell-group": "tdesign-miniprogram/cell-group/cell-group",
+        "t-cell": "tdesign-miniprogram/cell/cell",
+        "t-footer": "tdesign-miniprogram/footer/footer"
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

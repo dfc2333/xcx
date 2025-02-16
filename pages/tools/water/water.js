@@ -1,7 +1,7 @@
 // index.js
 Page({
   data: {
-    res: '这里将显示你的海拔高度近似值'
+    res: '...'
   },
   calc: function(e){
     var bt = e.detail.value;
@@ -11,7 +11,7 @@ Page({
       res:Math.round(h)
     })}else if(bt===''){
       this.setData({
-        res:"这里将显示你的海拔高度近似值"
+        res:"..."
       })
     }else{
       this.setData({

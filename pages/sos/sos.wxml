@@ -1,16 +1,18 @@
 <!--pages/sos/sos.wxml-->
 <view class="block">
-  <t-navbar
-    t-class-placeholder="t-navbar-placeholder"
-    t-class-content="t-navbar-content"
-    title="SOS求救"
-    t-class-title="nav-title"
-    left-arrow
-    style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
-  />
+    <t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="SOS求救" t-class-title="nav-title" left-arrow style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;" />
 </view>
 <scroll-view class="scrollarea" scroll-y>
     <view class="container">
+        <view class="cus-h" >
+        </view>
+        <t-grid class="block" column="{{2}}" theme="card">
+            <t-grid-item text="地图" icon="map" url="/pages/sos/map/map" />
+            <t-grid-item text="应急指南" icon="compass" url="/pages/sos/guide/guide" />
+            <t-grid-item text="警察" icon="call" click="police" url="/pages/sos/guide_play/guide_play" />
+            <t-grid-item text="急救" icon="call" click="help" url="/pages/sos/guide_play_2/guide_play" />
+        </t-grid>
+        <!--
         <view class='sub-ctnr'>
             <view class='min-ctnr' bind:tap="direct">
                 <t-icon name="map" size="72rpx" data-name="map" />
@@ -39,6 +41,7 @@
                 </text>
             </view>
         </view>
+        -->
         <view class='min-ctnr'>
             <text class="main_content" style="position: relative; left: 0rpx; top: -156rpx; height: 264rpx; display: block; box-sizing: border-box; width: 611rpx">
                 Tips :<br />

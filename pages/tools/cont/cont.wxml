@@ -3,7 +3,7 @@
   <t-navbar
     t-class-placeholder="t-navbar-placeholder"
     t-class-content="t-navbar-content"
-    title="联系"
+    title="服务热线"
     t-class-title="nav-title"
     left-arrow
     style="--td-navbar-color: #000;--td-navbar-bg-color:#dfc;"
